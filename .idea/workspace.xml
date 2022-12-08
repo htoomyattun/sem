@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Adding Dockerfile version changed to 19">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Pulled main.yml and edited readme">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +31,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -161,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670524874081</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Pulled main.yml and edited readme">
+      <created>1670525690156</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1670525690156</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Pulled main.yml and edited readme">
+      <created>1670525718298</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1670525718298</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -180,6 +194,7 @@
     <MESSAGE value="Adding App.java" />
     <MESSAGE value="Adding Dockerfile" />
     <MESSAGE value="Adding Dockerfile version changed to 19" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Dockerfile version changed to 19" />
+    <MESSAGE value="Pulled main.yml and edited readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pulled main.yml and edited readme" />
   </component>
 </project>

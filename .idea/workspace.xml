@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Adding Dockerfile version changed to 19" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Adding Dockerfile version changed to 19">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +41,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Marven/IdeaProjects/DEvOPSCW/seMethods/seMethods",
     "settings.editor.selected.configurable": "Docker"
   }
 }]]></component>
@@ -101,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670519365217</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Adding Dockerfile version changed to 19">
+      <created>1670522985289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670522985289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

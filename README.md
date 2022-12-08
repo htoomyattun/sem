@@ -5,4 +5,5 @@ Readme!!!!!
 [![Releases](https://img.shields.io/github/release/htoomyattun/sem/all.svg?style=flat-square)](https://github.com/htoomyattun/sem/releases)
 
 # Software Engineering Methods
+Develop Build Status
 ![GitHub Workflow Status (develop)](https://img.shields.io/github/workflow/status/htoomyattun/sem/workflow/develop?style=flat-square)

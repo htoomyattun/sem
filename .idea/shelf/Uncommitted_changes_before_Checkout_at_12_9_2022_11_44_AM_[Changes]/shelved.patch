@@ -1,0 +1,43 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -4,7 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Develop build badge">
++    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="push to develop">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+@@ -243,7 +243,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670528455238</updated>
+     </task>
+-    <option name="localTasksCounter" value="24" />
++    <task id="LOCAL-00024" summary="push to develop">
++      <created>1670562748442</created>
++      <option name="number" value="00024" />
++      <option name="presentableId" value="LOCAL-00024" />
++      <option name="project" value="LOCAL" />
++      <updated>1670562748442</updated>
++    </task>
++    <option name="localTasksCounter" value="25" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -268,6 +275,7 @@
+     <MESSAGE value="edited readme for badge release" />
+     <MESSAGE value="develop branch" />
+     <MESSAGE value="Develop build badge" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Develop build badge" />
++    <MESSAGE value="push to develop" />
++    <option name="LAST_COMMIT_MESSAGE" value="push to develop" />
+   </component>
+ </project>
+\ No newline at end of file

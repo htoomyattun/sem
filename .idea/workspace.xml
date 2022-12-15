@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="2">
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-4.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-5.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-6.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-7.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-8.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-9.md" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="usecase">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -520,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671112410167</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="usecase">
+      <created>1671142336199</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1671142336199</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,6 +556,7 @@
     <MESSAGE value="dockerfile for database" />
     <MESSAGE value="Mysql connection" />
     <MESSAGE value="2" />
-    <option name="LAST_COMMIT_MESSAGE" value="2" />
+    <MESSAGE value="usecase" />
+    <option name="LAST_COMMIT_MESSAGE" value="usecase" />
   </component>
 </project>

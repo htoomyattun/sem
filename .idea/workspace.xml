@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="UseCase Diagram" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="connection successful">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/test_db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +73,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -77,10 +87,11 @@
       <recent name="C:\Users\user\IdeaProjects\sem\use-cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1\db" />
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -263,9 +274,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
+        <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.workflows.db: Compose Deployment" />
       </list>
@@ -283,7 +294,11 @@
       <workItem from="1671043267866" duration="2696000" />
       <workItem from="1671099999991" duration="5423000" />
       <workItem from="1671152128844" duration="2329000" />
-      <workItem from="1671159599875" duration="4760000" />
+      <workItem from="1671159599875" duration="9102000" />
+      <workItem from="1671173800328" duration="22000" />
+      <workItem from="1671371872997" duration="3227000" />
+      <workItem from="1671421703777" duration="525000" />
+      <workItem from="1671422420403" duration="2145000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding Initial Files.">
       <created>1670509805212</created>
@@ -558,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671164830064</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="connection successful">
+      <created>1671165103146</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1671165103146</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,6 +620,11 @@
     <MESSAGE value="2" />
     <MESSAGE value="usecase" />
     <MESSAGE value="UseCase Diagram" />
-    <option name="LAST_COMMIT_MESSAGE" value="UseCase Diagram" />
+    <MESSAGE value="connection successful" />
+    <option name="LAST_COMMIT_MESSAGE" value="connection successful" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

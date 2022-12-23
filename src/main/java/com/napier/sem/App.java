@@ -48,7 +48,18 @@ public class App
         app.printCountriesReport(countries);
 ///////////////////////////////////////////////////////////
 
+
+////////////////////////////////////////////////////////////hah
+        // 5.The top N populated countries in a continent where N is provided by the user.
+        countries = app.countrytopncontinent();
+        // Print The top N populated countries in a continent where N is provided by the user.
+        app.printCountriesReport(countries);
+
+
+
+
 ///////////////////////////////////////////////////////////
+
         // Disconnect from database
         app.disconnect();
 
@@ -171,7 +182,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            String continent = "'Asia'";
+            String continent = "'Africa'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent +" ORDER BY country.Population DESC";
@@ -190,7 +201,7 @@ public class App
                 coun.setCapital(rset.getString("city.Name"));
                 countries.add(coun);
             }
-            System.out.println("\n2. All the countries in "+continent+" organised by largest population to smallest.\n");
+            System.out.println("\n2. All the countries in a continent organised by largest population to smallest.\n");
             return countries;
         }
         catch (Exception e)
@@ -210,7 +221,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            String region = "'Central America'";
+            String region = "'Caribbean'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region +" ORDER BY country.Population DESC";
@@ -229,7 +240,7 @@ public class App
                 coun.setCapital(rset.getString("city.Name"));
                 countries.add(coun);
             }
-            System.out.println("\n3.All the countries in "+region+" organised by largest population to smallest.\n");
+            System.out.println("\n3.All the countries in a region organised by largest population to smallest.\n");
             return countries;
         }
         catch (Exception e)
@@ -279,9 +290,64 @@ public class App
     }
 ///////////////////////////////////////////////////
 
+///////////////////////////////////////////////////////////hah
+
+    /**
+     5.The top N populated countries in a continent where N is provided by the user.
+     */
+    public ArrayList<Country> countrytopncontinent()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            int limit = 15;       // for N in a list of Top "N" populated country in the world
+            String continent = "'Asia'";
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent + " ORDER BY country.Population DESC LIMIT "+limit;
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
+            }
+            System.out.println("\n5. The top "+ limit +" populated countries in "+ continent+" continent.");
+            return countries;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country information");
+            return null;
+        }
+    }
 
 
-//////////////////////////////////////////////////////////
+
+
+///////////////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////////ttkk
+
+
+
+///////////////////////////////////////////////////////////////
+
+
+
+    //////////////////////////////////////////////////////////
     // out put and print files for country
     public void printCountriesReport(ArrayList<Country> countries)
     {
@@ -320,7 +386,10 @@ public class App
 
 /////////////////////////////////////////////////////////////
 // out put and print files for city
-
+    /**
+     * Prints a list of cities.
+     * @param cities The list of cities to print.
+     */
 
     public void printCitiesReport(ArrayList<City> cities)
     {

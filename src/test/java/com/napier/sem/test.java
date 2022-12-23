@@ -1,10 +1,6 @@
 package com.napier.sem;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
-import org.junit.jupiter.api.TestInstance;
-import java.util.ArrayList;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 public class test {
     static App app;
@@ -15,8 +11,21 @@ public class test {
         app = new App();
     }
 
+    // 1. Get Populated Countries of the world
     @Test
-    void worldCountryLargeToSmallTest() {
-        app.worldCountryLargeToSmall();
+    void countryworld() {
+        app.countryworld();
+    }
+    @Test
+    void countrycontinent() {
+        app.countrycontinent();
+    }
+    @Test
+    void countryregion() {
+        app.countryregion();
+    }
+    @Test
+    void countrytopnworld() {
+        app.countrytopnworld();
     }
 }

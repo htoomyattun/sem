@@ -23,10 +23,37 @@ public class App
         {
             app.connect(args[0]);
         }
+////////////////////////////////////////////hmt
+        // 1. All the countries in the world organised by largest population to smallest.
+        ArrayList<Country> countries = app.countryworld();
+        // Print All the countries in the world organised by largest population to smallest.
+        app.printCountriesReport(countries);
 
 
+        // 2. All the countries in a continent organised by largest population to smallest.
+        countries = app.countrycontinent();
+        // Print All the countries in a continent organised by largest population to smallest.
+        app.printCountriesReport(countries);
+
+
+        // 3.  All the countries in a region organised by largest population to smallest.
+        countries = app.countryregion();
+        // Print All the countries in a region organised by largest population to smallest.
+        app.printCountriesReport(countries);
+
+
+        // 4. The top N populated countries in the world where N is provided by the user.
+        countries = app.countrytopnworld();
+        // Print The top N populated countries in the world where N is provided by the user.
+        app.printCountriesReport(countries);
+///////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
         // Disconnect from database
         app.disconnect();
+
+
+
     }
 
 
@@ -58,9 +85,7 @@ public class App
             System.out.println("Connecting to database ...");
             try
             {
-                // Wait a bit for db to start
-//                Thread.sleep(30000);
-                // Connect to database
+
                 con = DriverManager.getConnection("jdbc:mysql://" + location + "/world?" +
                         "allowPublicKeyRetrieval=true&useSSL=false", "root", "thuta");
                 System.out.println("Successfully connected");
@@ -71,10 +96,7 @@ public class App
                 System.out.println("Failed to connect to database attempt " + i);
                 System.out.println(sqle.getMessage());
             }
-//            catch (InterruptedException ie)
-//            {
-//                System.out.println("Thread interrupted? Should not happen.");
-//            }
+
         }
     }
 
@@ -97,63 +119,42 @@ public class App
         }
     }
 
+/////////////////////////////////////////////////////////////hmt
 
     /**
-     * (1) All the countries in the world organised by largest population to smallest.
-     */
-    public ArrayList<Country> worldCountryLargeToSmall()
+     1. All the countries in the world organised by largest population to smallest.
+     **/
+    public ArrayList<Country> countryworld()
     {
-        try {
-            // sql query
-            String strSelect = "SELECT Code, Name, Continent, Region, Population, Capital FROM " +
-                    "country ORDER BY Population DESC;";
-            // Get countries from query
-            // return
-            return worldcountrypop(strSelect);
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
-            System.out.println("Failed to get top populated countries in the world");
-            return null;
-        }
-    }
-
-    /**
-     * Get Countries from SQL query
-     * @param strSelect SQL Query String
-     * @return return an ArrayList containing countries
-     */
-    public ArrayList<Country> worldcountrypop(String strSelect) {
-        try {
-            // create the java statement
+        try
+        {
+            // Create an SQL statement
             Statement stmt = con.createStatement();
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID ORDER BY country.Population DESC";
             // Execute SQL statement
             ResultSet rset = stmt.executeQuery(strSelect);
-            // Return new country if valid
-            ArrayList<Country> country = new ArrayList<>();
-            if (!rset.next())
-                return null;
-            else {
-                do {
-                    Country ctry = new Country();
-                    ctry.setCode(rset.getString("Code"));
-                    ctry.setName(rset.getString("Name"));
-                    ctry.setContinent(rset.getString("Continent"));
-                    ctry.setRegion(rset.getString("Region"));
-                    ctry.setPopulation(rset.getLong("Population"));
-                    ctry.setCapital(rset.getString("Capital"));
-                    country.add(ctry);
-
-
-
-                } while (rset.next());
-                // Close ResultSet and Statement
-                closeResultSetAndStatement(rset, stmt);
-                return country;
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
             }
+            System.out.println("\n1. All the countries in the world organised by largest population to smallest.\n");
+            return countries;
         }
-        catch (Exception e) {
+        catch (Exception e)
+        {
             System.out.println(e.getMessage());
-            System.out.println("Failed to get country");
+            System.out.println("Failed to get country information");
             return null;
         }
     }
@@ -162,14 +163,197 @@ public class App
 
 
     /**
-     * Close ResultSet and Statement
-     * @param rset ResultSet
-     * @param stmt Statement
-     * @throws SQLException throws an instance of SQLException
-     */
-    public static void closeResultSetAndStatement(ResultSet rset, Statement stmt) throws SQLException {
-        // Close ResultSet and Statement
-        rset.close();
-        stmt.close();
+     2. All the countries in a continent organised by largest population to smallest.
+     **/
+    public ArrayList<Country> countrycontinent()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            String continent = "'Asia'";
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent +" ORDER BY country.Population DESC";
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
+            }
+            System.out.println("\n2. All the countries in "+continent+" organised by largest population to smallest.\n");
+            return countries;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country information");
+            return null;
+        }
     }
+
+    /**
+     3. All the countries in a region organised by largest population to smallest.
+     **/
+    public ArrayList<Country> countryregion()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            String region = "'Central America'";
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region +" ORDER BY country.Population DESC";
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
+            }
+            System.out.println("\n3.All the countries in "+region+" organised by largest population to smallest.\n");
+            return countries;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country information");
+            return null;
+        }
+    }
+    /***
+     4. The top N populated countries in the world where N is provided by the user.
+     */
+    public ArrayList<Country> countrytopnworld()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            int limit = 15;       // for N in a list of Top "N" populated country in the world
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID ORDER BY country.Population DESC LIMIT "+ limit;
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
+            }
+            System.out.println("\n4. The top " + limit + " populated countries in the world where N is provided by the user.\n");
+            return countries;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country information");
+            return null;
+        }
+    }
+///////////////////////////////////////////////////
+
+
+
+//////////////////////////////////////////////////////////
+    // out put and print files for country
+    public void printCountriesReport(ArrayList<Country> countries)
+    {
+        // Check Countries is not null
+        if (countries == null)
+        {
+            System.out.println("No Countries");
+            return;
+        }
+        // Print header
+        System.out.printf("%-5s %-15s %-20s %-20s %-20s %-20s%n", "Code", "Name", "Continent", "Region", "Population", "Capital");
+        System.out.println("\n");
+
+        // Check Country is not empty
+        if (!countries.isEmpty())
+        {
+            // Loop over all countries in the list
+            for (Country coun : countries)
+            {
+                // Check Country contain null
+                if (coun == null){
+                    continue;}
+                String country_string =
+                        String.format("%-5s %-15s %-20s %-20s %-20s %-20s",
+                                coun.getCode(), coun.getName(), coun.getContinent(), coun.getRegion(), coun.getPopulation(), coun.getCapital());
+                System.out.println(country_string);
+            }
+        }
+        else
+        {
+            String country_string = "Country Report List is empty";
+            System.out.println(country_string);
+        }
+    }
+
+
+/////////////////////////////////////////////////////////////
+// out put and print files for city
+
+
+    public void printCitiesReport(ArrayList<City> cities)
+    {
+        // Check cities is not null
+        if (cities == null)
+        {
+            System.out.println("No cities");
+            return;
+        }
+        // Print header
+        System.out.printf("%-25s %-25s %-25s %-25s%n", "City Name", "Country Name", "District", "Population");
+        System.out.println("\n");
+
+        // Check City is not empty
+        if (!cities.isEmpty())
+        {
+            // Loop over all cities in the list
+            for (City city : cities) {
+                // Check City contain null
+                if (city == null){
+                    continue;}
+                String city_string =
+                        String.format("%-25s %-25s %-25s %-25s",
+                                city.getName(), city.getCountry(), city.getDistrict(), city.getPopulation());
+                System.out.println(city_string);
+            }
+        }
+        else
+        {
+            String city_string = "City Report List is empty";
+            System.out.println(city_string);
+        }
+    }
+////////////////////////////////////////////////////////////////
+
 }

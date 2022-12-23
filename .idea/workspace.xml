@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="HAH Querry 5">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="HAH Querry 6">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/test.java" afterDir="false" />
     </list>
@@ -596,7 +595,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671826491464</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="HAH Querry 6">
+      <created>1671827407644</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1671827407644</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -614,7 +620,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First Commit, adding Initial Files." />
     <MESSAGE value="Adding App.java" />
     <MESSAGE value="Adding Dockerfile" />
     <MESSAGE value="Adding Dockerfile version changed to 19" />
@@ -639,7 +644,8 @@
     <MESSAGE value="connection successful" />
     <MESSAGE value="unit test directory and some config" />
     <MESSAGE value="HAH Querry 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="HAH Querry 5" />
+    <MESSAGE value="HAH Querry 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="HAH Querry 6" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

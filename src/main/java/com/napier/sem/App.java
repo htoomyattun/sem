@@ -60,7 +60,10 @@ public class App
         // Print Top populated Country in the region
         app.printCountriesReport(countries);
 
-
+        // 7. All the cities in the world organised by largest population to smallest.
+        ArrayList<City> cities = app.cityworld();
+        // print city data
+        app.printCitiesReport(cities);
 
 
 ///////////////////////////////////////////////////////////
@@ -372,6 +375,45 @@ public class App
         {
             System.out.println(e.getMessage());
             System.out.println("Failed to get country information");
+            return null;
+        }
+    }
+
+    /**
+     7. All the cities in the world organised by largest population to smallest.
+     **/
+    public ArrayList<City> cityworld()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement sql = con.createStatement();
+
+            // Create string for SQL statement
+            String getCityReports =
+                    "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code ORDER BY city.Population DESC;";
+
+            // Execute SQL statement
+            ResultSet result = sql.executeQuery(getCityReports);
+
+            // Extract city data
+            ArrayList<City> cities = new ArrayList<>();
+            while (result.next())
+            {
+                City actiy = new City();
+                actiy.setName(result.getString("city.Name"));
+                actiy.setCountry(result.getString("country.Name"));
+                actiy.setDistrict(result.getString("city.District"));
+                actiy.setPopulation(result.getInt("city.Population"));
+                cities.add(actiy);
+            }
+            System.out.println("\n7. All the cities in the world organised by largest population to smallest.");
+            return cities;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get Cities in the world database");
             return null;
         }
     }

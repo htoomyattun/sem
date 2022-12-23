@@ -29,4 +29,16 @@ public class test {
         app.countrytopnworld();
     }
 
+    @Test
+    void countrytopncontinent() {
+        app.countrytopncontinent();
+    }
+    @Test
+    void countrytopregion() {
+        app.countrytopnregion();
+    }
+    @Test
+    void cityworld(){
+        app.cityworld();
+    }
 }

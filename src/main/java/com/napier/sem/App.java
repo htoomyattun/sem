@@ -55,6 +55,11 @@ public class App
         // Print The top N populated countries in a continent where N is provided by the user.
         app.printCountriesReport(countries);
 
+        // 6. The top N populated countries in a region where N is provided by the user.
+        countries = app.countrytopnregion();
+        // Print Top populated Country in the region
+        app.printCountriesReport(countries);
+
 
 
 
@@ -322,6 +327,45 @@ public class App
                 countries.add(coun);
             }
             System.out.println("\n5. The top "+ limit +" populated countries in "+ continent+" continent.");
+            return countries;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get country information");
+            return null;
+        }
+    }
+    /**
+     6. The top N populated countries in a region where N is provided by the user.
+     */
+    public ArrayList<Country> countrytopnregion()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement stmt = con.createStatement();
+            int limit = 5;       // for N in a list of Top "N" populated country in the world
+            String region = "'Eastern Asia'";
+            // Create string for SQL statement
+            String strSelect =
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region + " ORDER BY country.Population DESC LIMIT "+limit;
+            // Execute SQL statement
+            ResultSet rset = stmt.executeQuery(strSelect);
+            // Extract countries information
+            ArrayList<Country> countries = new ArrayList<>();
+            while (rset.next())
+            {
+                Country coun = new Country();
+                coun.setCode(rset.getString("country.Code"));
+                coun.setName(rset.getString("country.Name"));
+                coun.setContinent(rset.getString("country.Continent"));
+                coun.setRegion(rset.getString("country.Region"));
+                coun.setPopulation(rset.getInt("country.Population"));
+                coun.setCapital(rset.getString("city.Name"));
+                countries.add(coun);
+            }
+            System.out.println("\n6. The top "+ limit +" populated countries in "+ region+" region.");
             return countries;
         }
         catch (Exception e)

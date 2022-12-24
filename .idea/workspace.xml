@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="HAH Querry 7 &amp; Test">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Thuta queries update">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +311,7 @@
       <workItem from="1671371872997" duration="3227000" />
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
-      <workItem from="1671890207124" duration="340000" />
+      <workItem from="1671890207124" duration="1434000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit, adding Initial Files.">
       <created>1670509805212</created>
@@ -622,7 +621,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671827974045</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Thuta queries update">
+      <created>1671890791719</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1671890791719</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -640,7 +646,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adding Dockerfile" />
     <MESSAGE value="Adding Dockerfile version changed to 19" />
     <MESSAGE value="Pulled main.yml and edited readme" />
     <MESSAGE value="Pulled main.yml and edited readme for badge" />
@@ -665,7 +670,8 @@
     <MESSAGE value="HAH Querry 5" />
     <MESSAGE value="HAH Querry 6" />
     <MESSAGE value="HAH Querry 7 &amp; Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="HAH Querry 7 &amp; Test" />
+    <MESSAGE value="Thuta queries update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thuta queries update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

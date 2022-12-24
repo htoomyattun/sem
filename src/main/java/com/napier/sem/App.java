@@ -68,6 +68,32 @@ public class App
 
 ///////////////////////////////////////////////////////////
 
+////////////////////////////////////////////////////////////ttkk
+
+        // 8.All the cities in a continent organised by largest population to smallest.
+        cities = app.citycontinent();
+        // print city data
+        app.printCitiesReport(cities);
+
+        // 9. All the cities in a region organised by largest population to smallest.
+        cities = app.cityregion();
+        // print city data
+        app.printCitiesReport(cities);
+
+        // 10. All the cities in a country organised by largest population to smallest.
+        cities = app.citycountry();
+        // print city data
+        app.printCitiesReport(cities);
+
+        // 11. All the cities in a district organised by largest population to smallest.
+        cities = app.citydistrict();
+        // print city data
+        app.printCitiesReport(cities);
+
+
+///////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////
         // Disconnect from database
         app.disconnect();
 
@@ -190,7 +216,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            String continent = "'Africa'";
+            String continent = "'Asia'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent +" ORDER BY country.Population DESC";
@@ -209,7 +235,7 @@ public class App
                 coun.setCapital(rset.getString("city.Name"));
                 countries.add(coun);
             }
-            System.out.println("\n2. All the countries in a continent organised by largest population to smallest.\n");
+            System.out.println("\n2. All the countries in "+continent+" organised by largest population to smallest.\n");
             return countries;
         }
         catch (Exception e)
@@ -229,7 +255,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            String region = "'Caribbean'";
+            String region = "'Central America'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region +" ORDER BY country.Population DESC";
@@ -248,7 +274,7 @@ public class App
                 coun.setCapital(rset.getString("city.Name"));
                 countries.add(coun);
             }
-            System.out.println("\n3.All the countries in a region organised by largest population to smallest.\n");
+            System.out.println("\n3.All the countries in "+region+" organised by largest population to smallest.\n");
             return countries;
         }
         catch (Exception e)
@@ -313,7 +339,7 @@ public class App
             String continent = "'Asia'";
             // Create string for SQL statement
             String strSelect =
-                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent + " ORDER BY country.Population DESC LIMIT "+limit;
+                    "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Continent="+ continent + " ORDER BY country.Population DESC LIMIT "+ limit;
             // Execute SQL statement
             ResultSet rset = stmt.executeQuery(strSelect);
             // Extract countries information
@@ -349,7 +375,7 @@ public class App
             // Create an SQL statement
             Statement stmt = con.createStatement();
             int limit = 5;       // for N in a list of Top "N" populated country in the world
-            String region = "'Eastern Asia'";
+            String region = "'Southeast Asia'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region + " ORDER BY country.Population DESC LIMIT "+limit;
@@ -426,7 +452,170 @@ public class App
 
 
 //////////////////////////////////////////////////////////////ttkk
+    /**
+     8. All the cities in a continent organised by largest population to smallest.
+     **/
+    public ArrayList<City> citycontinent()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement sql = con.createStatement();
 
+            // Create string for SQL statement
+            String continent = "'Asia'";
+            String getCityReports =
+                    "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE country.Continent="+ continent  +" ORDER BY city.Population DESC;";
+
+            // Execute SQL statement
+            ResultSet result = sql.executeQuery(getCityReports);
+
+            // Extract city data
+            ArrayList<City> cities = new ArrayList<>();
+            while (result.next())
+            {
+                City actiy = new City();
+                actiy.setName(result.getString("city.Name"));
+                actiy.setCountry(result.getString("country.Name"));
+                actiy.setDistrict(result.getString("city.District"));
+                actiy.setPopulation(result.getInt("city.Population"));
+                cities.add(actiy);
+            }
+            System.out.println("\n8. All the cities in" +continent+" organised by largest population to smallest.");
+            return cities;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get Cities in the world database");
+            return null;
+        }
+    }
+
+
+    /**
+     9. All the cities in a region organised by largest population to smallest.
+     **/
+
+    public ArrayList<City> cityregion()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement sql = con.createStatement();
+
+            // Create string for SQL statement
+            String region = "'Southeast Asia'";
+            String getCityReports =
+                    "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE country.Region="+region+" ORDER BY city.Population DESC;";
+
+            // Execute SQL statement
+            ResultSet result = sql.executeQuery(getCityReports);
+
+            // Extract city data
+            ArrayList<City> cities = new ArrayList<>();
+            while (result.next())
+            {
+                City actiy = new City();
+                actiy.setName(result.getString("city.Name"));
+                actiy.setCountry(result.getString("country.Name"));
+                actiy.setDistrict(result.getString("city.District"));
+                actiy.setPopulation(result.getInt("city.Population"));
+                cities.add(actiy);
+            }
+            System.out.println("\n9. All the cities in "+region+" organised by largest population to smallest. ");
+            return cities;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get Cities in the world database");
+            return null;
+        }
+    }
+
+
+    /**
+     10.All the cities in a country organised by largest population to smallest.
+     **/
+
+
+    public ArrayList<City> citycountry()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement sql = con.createStatement();
+
+            // Create string for SQL statement
+            String country = "'Myanmar'";
+            String getCityReports =
+                    "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE country.name="+country+" ORDER BY city.Population DESC;";
+
+            // Execute SQL statement
+            ResultSet result = sql.executeQuery(getCityReports);
+
+            // Extract city data
+            ArrayList<City> cities = new ArrayList<>();
+            while (result.next())
+            {
+                City actiy = new City();
+                actiy.setName(result.getString("city.Name"));
+                actiy.setCountry(result.getString("country.Name"));
+                actiy.setDistrict(result.getString("city.District"));
+                actiy.setPopulation(result.getInt("city.Population"));
+                cities.add(actiy);
+            }
+            System.out.println("\n10. All the cities in "+country+" organised by largest population to smallest. country sorted by largest to smallest population\n");
+            return cities;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get Cities in the world database");
+            return null;
+        }
+    }
+
+    /**
+     11. All the cities in a district organised by largest population to smallest.
+     **/
+    public ArrayList<City> citydistrict()
+    {
+        try
+        {
+            // Create an SQL statement
+            Statement sql = con.createStatement();
+
+            // Create string for SQL statement
+            String district = "'Mandalay'";
+            String getCityReports =
+                    "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE city.District="+district+" ORDER BY city.Population DESC;";
+
+            // Execute SQL statement
+            ResultSet result = sql.executeQuery(getCityReports);
+
+            // Extract city data
+            ArrayList<City> cities = new ArrayList<>();
+            while (result.next())
+            {
+                City actiy = new City();
+                actiy.setName(result.getString("city.Name"));
+                actiy.setCountry(result.getString("country.Name"));
+                actiy.setDistrict(result.getString("city.District"));
+                actiy.setPopulation(result.getInt("city.Population"));
+                cities.add(actiy);
+            }
+            System.out.println("\n11. All the cities in "+district+" organised by largest population to smallest. \n");
+            return cities;
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get Cities in the world database");
+            return null;
+        }
+    }
 
 
 ///////////////////////////////////////////////////////////////
@@ -472,10 +661,7 @@ public class App
 
 /////////////////////////////////////////////////////////////
 // out put and print files for city
-    /**
-     * Prints a list of cities.
-     * @param cities The list of cities to print.
-     */
+
 
     public void printCitiesReport(ArrayList<City> cities)
     {

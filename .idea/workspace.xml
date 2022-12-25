@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="main.yml changes">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/test.java" afterDir="false" />
-    </list>
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Unit Testing Bye&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -648,7 +642,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671891975499</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Unit Testing Bye&quot;">
+      <created>1671989678023</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1671989678023</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -669,7 +670,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pulled main.yml and edited readme" />
     <MESSAGE value="Pulled main.yml and edited readme for badge" />
     <MESSAGE value="edited readme for badge license" />
     <MESSAGE value="edited readme for badge release" />
@@ -694,7 +694,8 @@
     <MESSAGE value="HAH Querry 7 &amp; Test" />
     <MESSAGE value="Thuta queries update" />
     <MESSAGE value="main.yml changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="main.yml changes" />
+    <MESSAGE value="Unit Testing Bye&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing Bye&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

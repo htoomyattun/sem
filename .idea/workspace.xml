@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Unit Testing Bye&quot;" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="TEst">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -649,7 +651,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671989678023</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="TEst">
+      <created>1671990011559</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1671990011559</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -670,7 +679,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Pulled main.yml and edited readme for badge" />
     <MESSAGE value="edited readme for badge license" />
     <MESSAGE value="edited readme for badge release" />
     <MESSAGE value="develop branch" />
@@ -695,7 +703,8 @@
     <MESSAGE value="Thuta queries update" />
     <MESSAGE value="main.yml changes" />
     <MESSAGE value="Unit Testing Bye&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Unit Testing Bye&quot;" />
+    <MESSAGE value="TEst" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

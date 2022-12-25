@@ -633,8 +633,8 @@ public class App
             return;
         }
         // Print header
-        System.out.printf("%-5s %-15s %-20s %-20s %-20s %-20s%n", "Code", "Name", "Continent", "Region", "Population", "Capital");
-        System.out.println("\n");
+        System.out.printf("%-5s %-15s %-20s %-20s %-20s %-20s%n", "Code", "Name", "Continent", "Region", "Population", "Capital \n");
+//        System.out.println("\n");
 
         // Check Country is not empty
         if (!countries.isEmpty())
@@ -672,8 +672,8 @@ public class App
             return;
         }
         // Print header
-        System.out.printf("%-25s %-25s %-25s %-25s%n", "City Name", "Country Name", "District", "Population");
-        System.out.println("\n");
+        System.out.printf("%-25s %-25s %-25s %-25s%n", "City Name", "Country Name", "District", "Population \n");
+//        System.out.println("\n");
 
         // Check City is not empty
         if (!cities.isEmpty())

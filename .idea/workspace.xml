@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Workflow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="...........et">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,27 +320,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00006" summary="Adding Dockerfile version changed to 19">
-      <created>1670522985289</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1670522985289</updated>
-    </task>
-    <task id="LOCAL-00007" summary="Adding Dockerfile version changed to 19">
-      <created>1670523451385</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1670523451385</updated>
-    </task>
-    <task id="LOCAL-00008" summary="Adding Dockerfile version changed to 19">
-      <created>1670523456646</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1670523456646</updated>
     </task>
     <task id="LOCAL-00009" summary="Adding Dockerfile version changed to 19">
       <created>1670523514012</created>
@@ -664,7 +643,28 @@
       <option name="project" value="LOCAL" />
       <updated>1671993966363</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="Workflow">
+      <created>1671994591608</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1671994591608</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Workflow">
+      <created>1671994661975</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1671994661975</updated>
+    </task>
+    <task id="LOCAL-00057" summary="...........et">
+      <created>1671994776732</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1671994776732</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Develop build badge" />
     <MESSAGE value="feature/mongo-intergration branch and Mongo" />
     <MESSAGE value="Pom.xml edit with mongodb" />
     <MESSAGE value="App.java with mongo" />
@@ -710,7 +709,8 @@
     <MESSAGE value="Integration Testing Success!!!!" />
     <MESSAGE value="Integration Testing" />
     <MESSAGE value="Workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Workflow" />
+    <MESSAGE value="...........et" />
+    <option name="LAST_COMMIT_MESSAGE" value="...........et" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="TEst">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/Integration_Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Integration Testing Success!!!!" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,13 +318,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00002" summary="Adding App.java">
-      <created>1670510070663</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1670510070663</updated>
     </task>
     <task id="LOCAL-00003" summary="Adding App.java">
       <created>1670518959947</created>
@@ -666,7 +655,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671991152466</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="Integration Testing Success!!!!">
+      <created>1671993396547</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993396547</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -687,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="edited readme for badge license" />
     <MESSAGE value="edited readme for badge release" />
     <MESSAGE value="develop branch" />
     <MESSAGE value="Develop build badge" />
@@ -712,7 +707,8 @@
     <MESSAGE value="main.yml changes" />
     <MESSAGE value="Unit Testing Bye&quot;" />
     <MESSAGE value="TEst" />
-    <option name="LAST_COMMIT_MESSAGE" value="TEst" />
+    <MESSAGE value="Integration Testing Success!!!!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration Testing Success!!!!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

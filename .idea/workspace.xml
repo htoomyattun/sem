@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment=".......">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="testing">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/Integration_Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +90,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Integration_Test">
+  <component name="RunManager">
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
       <deployment type="docker-compose.yml">
         <settings />
@@ -118,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integration_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +131,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.Integration_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Integration_Test.testCountries_World" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testCountries_World" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +146,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.Integration_Test" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
       <option name="METHOD_NAME" value="testCountries_World" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -283,8 +287,8 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.Integration_Test" />
-      <item itemvalue="JUnit.Integration_Test.testCountries_World" />
+      <item itemvalue="JUnit.IntegrationTest" />
+      <item itemvalue="JUnit.IntegrationTest.testCountries_World" />
       <item itemvalue="JUnit.test" />
       <item itemvalue="JUnit.test.countryworld" />
       <item itemvalue="Maven.seMethods [deploy]" />
@@ -294,9 +298,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Integration_Test" />
-        <item itemvalue="JUnit.Integration_Test.testCountries_World" />
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.IntegrationTest.testCountries_World" />
         <item itemvalue="JUnit.test" />
         <item itemvalue="JUnit.test.countryworld" />
       </list>
@@ -320,13 +324,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00016" summary="Pulled main.yml and edited readme for badge">
-      <created>1670526575984</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1670526575984</updated>
     </task>
     <task id="LOCAL-00017" summary="edited readme for badge license">
       <created>1670526845428</created>
@@ -664,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671999216702</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary=".......">
+      <created>1671999401797</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1671999401797</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -685,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="App.java with mongo" />
     <MESSAGE value="seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar created" />
     <MESSAGE value="target delete &gt; run maven &gt; build docker image" />
     <MESSAGE value="docker &gt; sha &gt;" />
@@ -710,7 +713,8 @@
     <MESSAGE value="...........et" />
     <MESSAGE value="Hope it Works" />
     <MESSAGE value="......." />
-    <option name="LAST_COMMIT_MESSAGE" value="......." />
+    <MESSAGE value="testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

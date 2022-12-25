@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="...........et">
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Hope it Works">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -321,20 +321,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00012" summary="Adding Dockerfile version changed to 19">
-      <created>1670524874081</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1670524874081</updated>
-    </task>
-    <task id="LOCAL-00013" summary="Pulled main.yml and edited readme">
-      <created>1670525690156</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1670525690156</updated>
     </task>
     <task id="LOCAL-00014" summary="Pulled main.yml and edited readme">
       <created>1670525718298</created>
@@ -665,7 +651,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671996834967</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="...........et">
+      <created>1671997845635</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1671997845635</updated>
+    </task>
+    <task id="LOCAL-00062" summary="Hope it Works">
+      <created>1671997887182</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1671997887182</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="feature/mongo-intergration branch and Mongo" />
     <MESSAGE value="Pom.xml edit with mongodb" />
     <MESSAGE value="App.java with mongo" />
     <MESSAGE value="seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar created" />
@@ -711,7 +710,8 @@
     <MESSAGE value="Integration Testing" />
     <MESSAGE value="Workflow" />
     <MESSAGE value="...........et" />
-    <option name="LAST_COMMIT_MESSAGE" value="...........et" />
+    <MESSAGE value="Hope it Works" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hope it Works" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

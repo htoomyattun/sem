@@ -1,22 +1,22 @@
-name: A workflow for my Population App
-on: push
+name: Population APP
+on:
 
 jobs:
   UnitTests:
-    name: Unit Testing
+    name: Unit Tests
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
         uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: Set up JDK 19
+      - name: Set up JDK 11
         uses: actions/setup-java@v2
         with:
-          java-version: '19'
+          java-version: '11'
           distribution: 'adopt'
       - name: Unit Tests
-        run: mvn -Dtest=com.napier.sem.AppTest test
+        run: mvn test -Dtest=Q*.java
 
   IntegrationTests:
     name: Integration Tests
@@ -26,18 +26,18 @@ jobs:
         uses: actions/checkout@v2
         with:
           submodules: recursive
-      - name: Set up JDK 19
+      - name: Set up JDK 11
         uses: actions/setup-java@v2
         with:
-          java-version: '19'
+          java-version: '11'
           distribution: 'adopt'
       - name: Integration Tests and CodeCov
         run: |
           docker build -t database ./db 
-          docker run --name employees -dp 33060:3306 database
-          mvn -Dtest=com.napier.sem.AppIntegrationTest test          
-          docker stop employees
-          docker rm employees
+          docker run --name world -dp 33060:3306 database
+          mvn -Dtest=AppIntegrationTest test          
+          docker stop world
+          docker rm world
           docker image rm database
       - name: CodeCov
         uses: codecov/codecov-action@v2
@@ -46,20 +46,21 @@ jobs:
           directory: ./target/site/jacoco
           flags: Integration Tests # optional
           verbose: true # optional (default = false)
-    build:
-      name: Build and Start Using docker-compose
-      runs-on: ubuntu-20.04
-      steps:
-        - name: Checkout
-          uses: actions/checkout@v2
-          with:
-            submodules: recursive
-        - name: Set up JDK 19
-          uses: actions/setup-java@v2
-          with:
-            java-version: '19'
-            distribution: 'adopt'
-        - name: Package and Run docker compose
-          run: |
-            mvn package -DskipTests
-            docker-compose up --abort-on-container-exit
+
+  build:
+    name: Build and Start Using docker-compose
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      - name: Package and Run docker compose
+        run: |
+          mvn package -DskipTests
+          docker-compose up --abort-on-container-exit

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Integration Testing" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Workflow">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -318,20 +320,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00004" summary="Adding Dockerfile">
-      <created>1670518975056</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1670518975056</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adding Dockerfile version changed to 19">
-      <created>1670519365217</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1670519365217</updated>
     </task>
     <task id="LOCAL-00006" summary="Adding Dockerfile version changed to 19">
       <created>1670522985289</created>
@@ -662,7 +650,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671993660050</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Integration Testing">
+      <created>1671993818637</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993818637</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Workflow">
+      <created>1671993966363</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1671993966363</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="develop branch" />
     <MESSAGE value="Develop build badge" />
     <MESSAGE value="feature/mongo-intergration branch and Mongo" />
     <MESSAGE value="Pom.xml edit with mongodb" />
@@ -708,7 +709,8 @@
     <MESSAGE value="TEst" />
     <MESSAGE value="Integration Testing Success!!!!" />
     <MESSAGE value="Integration Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration Testing" />
+    <MESSAGE value="Workflow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Workflow" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

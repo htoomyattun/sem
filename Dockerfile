@@ -1,4 +1,4 @@
-FROM openjdk:latest
-COPY ./target/seMethods-1.0.2-SNAPSHOT.jar /tmp
+FROM openjdk:19
+COPY ./target/seMethods.jar /tmp
 WORKDIR /tmp
-ENTRYPOINT ["java", "-jar", "seMethods-1.0.2-SNAPSHOT.jar.jar"]
+ENTRYPOINT ["java", "-jar", "seMethods.jar", "db:3306", "30000"]

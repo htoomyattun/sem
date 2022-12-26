@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="code coverage">
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="unittest intetest">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,13 +309,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00024" summary="Develop build badge">
-      <created>1670528634778</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1670528634778</updated>
     </task>
     <task id="LOCAL-00025" summary="feature/mongo-intergration branch and Mongo">
       <created>1670529224607</created>
@@ -656,7 +646,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672030191139</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="unittest intetest">
+      <created>1672031546191</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1672031546191</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -677,7 +674,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="dockerfile for database" />
     <MESSAGE value="Mysql connection" />
     <MESSAGE value="2" />
     <MESSAGE value="usecase" />
@@ -702,7 +698,8 @@
     <MESSAGE value="111" />
     <MESSAGE value="111x" />
     <MESSAGE value="code coverage" />
-    <option name="LAST_COMMIT_MESSAGE" value="code coverage" />
+    <MESSAGE value="unittest intetest" />
+    <option name="LAST_COMMIT_MESSAGE" value="unittest intetest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

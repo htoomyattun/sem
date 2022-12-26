@@ -84,7 +84,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.db/Dockerfile">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -281,11 +281,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
-        <item itemvalue="Docker.db/Dockerfile" />
       </list>
     </recent_temporary>
   </component>

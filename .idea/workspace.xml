@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="workflow">
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="workfloww">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -309,13 +311,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00027" summary="App.java with mongo">
-      <created>1670533285935</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1670533285935</updated>
     </task>
     <task id="LOCAL-00028" summary="seMethods-1.0-SNAPSHOT-jar-with-dependencies.jar created">
       <created>1670533611279</created>
@@ -653,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672031772863</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="workfloww">
+      <created>1672031987067</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1672031987067</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -674,7 +676,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2" />
     <MESSAGE value="usecase" />
     <MESSAGE value="UseCase Diagram" />
     <MESSAGE value="connection successful" />
@@ -699,7 +700,8 @@
     <MESSAGE value="code coverage" />
     <MESSAGE value="unittest intetest" />
     <MESSAGE value="workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="workflow" />
+    <MESSAGE value="workfloww" />
+    <option name="LAST_COMMIT_MESSAGE" value="workfloww" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

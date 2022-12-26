@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="workflow">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="workflow test">
       <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -317,14 +316,7 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-      <workItem from="1672034799564" duration="1293000" />
-    </task>
-    <task id="LOCAL-00039" summary="UseCase Diagram">
-      <created>1671164830064</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1671164830064</updated>
+      <workItem from="1672034799564" duration="1441000" />
     </task>
     <task id="LOCAL-00040" summary="connection successful">
       <created>1671165103146</created>
@@ -662,7 +654,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672035061175</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="workflow test">
+      <created>1672036470859</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1672036470859</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -683,7 +682,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="usecase" />
     <MESSAGE value="UseCase Diagram" />
     <MESSAGE value="connection successful" />
     <MESSAGE value="unit test directory and some config" />
@@ -708,7 +706,8 @@
     <MESSAGE value="unittest intetest" />
     <MESSAGE value="workfloww" />
     <MESSAGE value="workflow" />
-    <option name="LAST_COMMIT_MESSAGE" value="workflow" />
+    <MESSAGE value="workflow test" />
+    <option name="LAST_COMMIT_MESSAGE" value="workflow test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

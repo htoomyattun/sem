@@ -47,7 +47,7 @@ public class IntegrationTest {
         assertEquals(expectedPopulation,actualPopulation);
         assertEquals(expectedCapital,actualCapital);
 
-        System.out.println("Testing to retrieve the countries in the world from largest population to smallest completed successfully!!");
+        System.out.println("Populated countries in the world from largest population to smallest Test completed successfully!!");
         System.out.println("=================================================================================================");
         }
 
@@ -158,7 +158,7 @@ public class IntegrationTest {
     }
 
     /**
-     * 5. Function to integrated test for Top N populated Country in the Continent
+     * 6. Function to integrated test for Top N populated Country in the Region
      */
     @Test
     void TopNCountries_region_test() {

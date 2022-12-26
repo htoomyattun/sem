@@ -588,7 +588,7 @@ public class App
             Statement sql = con.createStatement();
 
             // Create string for SQL statement
-            String district = "'Mandalay'";
+            String district = "'Florida'";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE city.District="+district+" ORDER BY city.Population DESC;";
 

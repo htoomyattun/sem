@@ -182,5 +182,116 @@ public class IntegrationTest {
         System.out.println("Top N populated Countries in the Region Test completed successfully!!");
         System.out.println("=================================================================================================");
     }
+    /**
+     * 7. All the cities in the world organised by largest population to smallest.
+     */
+    @Test
+    void Cities_World_Test() {
+
+        String expectedName = "Seoul";
+        String expectedCountry = "South Korea";
+        String expectedDistrict = "Seoul";
+        int expectedPopulation = 9_981_619;
+
+        ArrayList<City> cities = app.cityworld();
+
+        assertEquals(expectedName,cities.get(1).getName());
+        assertEquals(expectedCountry,cities.get(1).getCountry());
+        assertEquals(expectedDistrict,cities.get(1).getDistrict());
+        assertEquals(expectedPopulation,cities.get(1).getPopulation());
+
+        System.out.println("All the cities in the world from largest population to smallest testing completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     *8. Function to integrated test for Cities in the continent from the largest population to smallest
+     */
+    @Test
+    void test_Cities_Continent() {
+
+        String expectedName = "Istanbul";
+        String expectedCountry = "Turkey";
+        String expectedDistrict = "Istanbul";
+        int expectedPopulation = 8787958  ;
+
+        ArrayList<City> cities = app.citycontinent();
+
+        assertEquals(expectedName,cities.get(5).getName());
+        assertEquals(expectedCountry,cities.get(5).getCountry());
+        assertEquals(expectedDistrict,cities.get(5).getDistrict());
+        assertEquals(expectedPopulation,cities.get(5).getPopulation());
+
+        System.out.println("All the cities in the continent from largest population to smallest testing completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+
+    /**
+     *9. Function to integrated test for Cities in the region from the largest population to smallest
+     */
+    @Test
+    void test_City_Region() {
+
+        String expectedName = "Jakarta";
+        String expectedCountry = "Indonesia";
+        String expectedDistrict = "Jakarta Raya";
+        int expectedPopulation = 9604900;
+
+        ArrayList<City> cities = app.cityregion();
+
+        assertEquals(expectedName,cities.get(0).getName());
+        assertEquals(expectedCountry,cities.get(0).getCountry());
+        assertEquals(expectedDistrict,cities.get(0).getDistrict());
+        assertEquals(expectedPopulation,cities.get(0).getPopulation());
+
+        System.out.println("Testing to retrieve the cities in the region from largest population to smallest is successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     *10 Function to integrated test for Cities in the country from the largest population to smallest
+     */
+    @Test
+    void Cities_Country_Test() {
+
+        String expectedName = "Mandalay";
+        String expectedCountry = "Myanmar";
+        String expectedDistrict = "Mandalay";
+        int expectedPopulation = 885300  ;
+
+        ArrayList<City> cities = app.citycountry();
+
+        assertEquals(expectedName,cities.get(1).getName());
+        assertEquals(expectedCountry,cities.get(1).getCountry());
+        assertEquals(expectedDistrict,cities.get(1).getDistrict());
+        assertEquals(expectedPopulation,cities.get(1).getPopulation());
+
+        System.out.println("ALl the cities in the country from largest population to smallest testing completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     *11 Function to integrated test for Cities in the district from the largest population to smallest
+     */
+    @Test
+    void Cities_District_Test() {
+
+        String expectedName = "Miami";
+        String expectedCountry = "United States";
+        String expectedDistrict = "Florida";
+        int expectedPopulation = 362470 ;
+
+        ArrayList<City> cities = app.citydistrict();
+
+        assertEquals(expectedName,cities.get(1).getName());
+        assertEquals(expectedCountry,cities.get(1).getCountry());
+        assertEquals(expectedDistrict,cities.get(1).getDistrict());
+        assertEquals(expectedPopulation,cities.get(1).getPopulation());
+
+        System.out.println("All the cities in the district from largest population to smallest completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+
     }
 

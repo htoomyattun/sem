@@ -1,4 +1,4 @@
-name: A Workflow for my Population app
+name:  Population app
 on:
   push:
     branches:

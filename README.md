@@ -7,3 +7,6 @@ Readme!!!!!!
 # Software Engineering Methods
 Develop Build Status
 ![GitHub Workflow Status (develop)](https://img.shields.io/github/workflow/status/htoomyattun/sem/workflow/develop?style=flat-square)
+
+Code Coverage
+[![codecov](https://codecov.io/gh/htoomyattun/sem/branch/master/graph/badge.svg?token=bL9BmoDVsb)](https://codecov.io/gh/htoomyattun/sem)

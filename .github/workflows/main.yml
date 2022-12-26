@@ -5,8 +5,8 @@ on:
       - master
 
 jobs:
-  UnitTest:
-    name: UnitTest
+  UnitTests:
+    name: UnitTests
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout

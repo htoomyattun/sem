@@ -311,13 +311,6 @@
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
     </task>
-    <task id="LOCAL-00044" summary="HAH Querry 7 &amp; Test">
-      <created>1671827974045</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1671827974045</updated>
-    </task>
     <task id="LOCAL-00045" summary="Thuta queries update">
       <created>1671890791719</created>
       <option name="number" value="00045" />
@@ -654,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672038510641</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="workfloww">
+      <created>1672039411267</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1672039411267</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

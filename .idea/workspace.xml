@@ -311,13 +311,6 @@
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
     </task>
-    <task id="LOCAL-00029" summary="target delete &gt; run maven &gt; build docker image">
-      <created>1670535668042</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1670535668042</updated>
-    </task>
     <task id="LOCAL-00030" summary="docker &gt; sha &gt;">
       <created>1670560143330</created>
       <option name="number" value="00030" />
@@ -654,7 +647,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672032180589</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="workfloww">
+      <created>1672032237443</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032237443</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -7,6 +7,7 @@
     <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="workfloww">
       <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +88,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.test">
+  <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -116,7 +117,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +126,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.test" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -275,8 +276,8 @@
       <item itemvalue="Application.App" />
       <item itemvalue="Docker.db/Dockerfile" />
       <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
+      <item itemvalue="JUnit.UnitTests" />
       <item itemvalue="JUnit.IntegrationTest" />
-      <item itemvalue="JUnit.test" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
       <item itemvalue="Maven.seMethods [deploy] (2)" />
@@ -284,7 +285,7 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.test" />
+        <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Application.App" />
         <item itemvalue="Docker.docker-compose.yml.db: Compose Deployment" />
@@ -310,13 +311,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00030" summary="docker &gt; sha &gt;">
-      <created>1670560143330</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1670560143330</updated>
     </task>
     <task id="LOCAL-00031" summary="docker &gt; sha &gt;">
       <created>1670560239010</created>
@@ -654,7 +648,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672032237443</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="workfloww">
+      <created>1672032761640</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1672032761640</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

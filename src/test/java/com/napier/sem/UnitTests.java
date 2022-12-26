@@ -2,7 +2,7 @@ package com.napier.sem;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
-public class test {
+public class UnitTests {
     static App app;
 
     @BeforeAll

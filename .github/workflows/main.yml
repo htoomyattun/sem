@@ -34,7 +34,7 @@ jobs:
         with:
           java-version: '19'
           distribution: 'adopt'
-      - name: Integration Tests
+      - name: IntegrationTest
         run: |
           docker build -t database ./db 
           docker run --name world -dp 33060:3306 database

@@ -17,12 +17,16 @@ public class App
         // Connect to database
         if (args.length < 1)
         {
-            app.connect("localhost:33060");
+            app.connect("localhost:33060, 3000" );
         }
         else
         {
             app.connect(args[0]);
         }
+
+
+
+
 ////////////////////////////////////////////hmt
         // 1. All the countries in the world organised by largest population to smallest.
         ArrayList<Country> countries = app.countryworld();
@@ -100,8 +104,6 @@ public class App
 
 
     }
-
-
 
     /**
      * Connection to MySQL database.

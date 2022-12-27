@@ -385,7 +385,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            String region = "'Southeast Asia'";
+            String region = "'Central America'";
             // Create string for SQL statement
             String strSelect =
                     "SELECT country.Code, country.Name, country.Continent, country.Region, country.Population, city.Name FROM country INNER JOIN city on country.capital = city.ID WHERE country.Region="+ region +" ORDER BY country.Population DESC";
@@ -504,7 +504,7 @@ public class App
         {
             // Create an SQL statement
             Statement stmt = con.createStatement();
-            int limit = 5;       // for N in a list of Top "N" populated country in the world
+            int limit = 15;       // for N in a list of Top "N" populated country in the world
             String region = "'Southeast Asia'";
             // Create string for SQL statement
             String strSelect =
@@ -718,7 +718,7 @@ public class App
             Statement sql = con.createStatement();
 
             // Create string for SQL statement
-            String district = "'Rangoon [Yangon]'";
+            String district = "'Florida'";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on city.CountryCode=country.Code WHERE city.District="+district+" ORDER BY city.Population DESC;";
 
@@ -758,7 +758,7 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;
+            int limit = 15;
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population "
                             + "FROM city INNER JOIN country on city.CountryCode=country.Code "
@@ -796,8 +796,8 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;
-            String continent = "Asia";
+            int limit = 15;
+            String continent = "Oceania";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population "
                             + "FROM city INNER JOIN country on city.CountryCode=country.Code "
@@ -837,8 +837,8 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;
-            String region= "Southeast Asia";
+            int limit = 15;
+            String region= "Western Europe";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population "
                             + "FROM city INNER JOIN country on city.CountryCode=country.Code "
@@ -879,8 +879,8 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;
-            String country= "Myanmar";
+            int limit = 15;
+            String country= "France";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population "
                             + "FROM city INNER JOIN country on city.CountryCode=country.Code "
@@ -919,8 +919,8 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;
-            String district = "Rangoon [Yangon]";
+            int limit = 15;
+            String district = "California";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population "
                             + "FROM city INNER JOIN country on city.CountryCode=country.Code "
@@ -1043,7 +1043,7 @@ public class App
             Statement sql = con.createStatement();
 
             // Create string for SQL statement
-            String region = "'Southeast Asia'";
+            String region = "'Middle East'";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on country.capital = city.ID WHERE country.Region="+region+" ORDER BY Population DESC; ";
 
@@ -1082,7 +1082,7 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;       // for N in a list of Top "N" populated cities in the world
+            int limit = 15;       // for N in a list of Top "N" populated cities in the world
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on country.capital = city.ID ORDER BY Population DESC LIMIT " + limit;
             // Execute SQL statement
@@ -1119,7 +1119,7 @@ public class App
         {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;       // for N in a list of Top "N" populated cities in the world
+            int limit = 15;       // for N in a list of Top "N" populated cities in the world
             String continent ="'Asia'";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on country.capital = city.ID WHERE country.Continent="+continent+" ORDER BY Population DESC LIMIT " + limit;
@@ -1156,8 +1156,8 @@ public class App
         try {
             Statement stmt = con.createStatement();  // Create an SQL statement
             // Create string for SQL statement
-            int limit = 5;       // for N in a list of Top "N" populated cities in the world
-            String region = "'Southeast Asia'";
+            int limit = 15;       // for N in a list of Top "N" populated cities in the world
+            String region = "'Eastern Asia'";
             String getCityReports =
                     "SELECT city.Name, country.Name, city.District, city.Population FROM city INNER JOIN country on country.capital = city.ID WHERE country.Region=" + region + " ORDER BY Population DESC LIMIT " + limit;
             // Execute SQL statement

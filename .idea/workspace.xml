@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="query update">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Population.java" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Integration Upgrade + Fix">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/world.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/world_db/world.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +120,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.test_City_Region" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.CityinRegionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +130,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="test_City_Region" />
+      <option name="METHOD_NAME" value="CityinRegionTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.test_cities_Region" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testPopulation_cityContinent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -143,13 +146,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="test_cities_Region" />
+      <option name="METHOD_NAME" value="testPopulation_cityContinent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.test_citiy_Region" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.testSizeOfPopulation_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +162,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="test_citiy_Region" />
+      <option name="METHOD_NAME" value="testSizeOfPopulation_Continent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,9 +289,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.IntegrationTest.test_City_Region" />
-      <item itemvalue="JUnit.IntegrationTest.test_cities_Region" />
-      <item itemvalue="JUnit.IntegrationTest.test_citiy_Region" />
+      <item itemvalue="JUnit.IntegrationTest.CityinRegionTest" />
+      <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
+      <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
       <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
@@ -299,9 +302,9 @@
       <list>
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.test_City_Region" />
-        <item itemvalue="JUnit.IntegrationTest.test_citiy_Region" />
-        <item itemvalue="JUnit.IntegrationTest.test_cities_Region" />
+        <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
+        <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
+        <item itemvalue="JUnit.IntegrationTest.CityinRegionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -688,7 +691,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="unit test directory and some config" />
     <MESSAGE value="HAH Querry 5" />
     <MESSAGE value="HAH Querry 6" />
     <MESSAGE value="HAH Querry 7 &amp; Test" />
@@ -713,19 +715,20 @@
     <MESSAGE value="gugrgugr" />
     <MESSAGE value="More Test" />
     <MESSAGE value="query update" />
-    <option name="LAST_COMMIT_MESSAGE" value="query update" />
+    <MESSAGE value="Integration Upgrade + Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration Upgrade + Fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java</url>
-          <line>1184</line>
+          <line>1185</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java</url>
-          <line>1349</line>
+          <line>1350</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

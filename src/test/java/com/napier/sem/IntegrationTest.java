@@ -231,19 +231,11 @@ public class IntegrationTest {
      *9. Function to integrated test for Cities in the region from the largest population to smallest
      */
     @Test
-    void test_City_Region() {
-
-        String expectedName = "Jakarta";
-        String expectedCountry = "Indonesia";
-        String expectedDistrict = "Jakarta Raya";
-        int expectedPopulation = 9604900;
+    void CityinRegionTest() {
 
         ArrayList<City> cities = app.cityregion();
+        assertEquals(297, cities.size());
 
-        assertEquals(expectedName,cities.get(0).getName());
-        assertEquals(expectedCountry,cities.get(0).getCountry());
-        assertEquals(expectedDistrict,cities.get(0).getDistrict());
-        assertEquals(expectedPopulation,cities.get(0).getPopulation());
 
         System.out.println("Testing to retrieve the cities in the region from largest population to smallest is successfully!!");
         System.out.println("=================================================================================================");
@@ -291,7 +283,259 @@ public class IntegrationTest {
         System.out.println("All the cities in the district from largest population to smallest completed successfully!!");
         System.out.println("=================================================================================================");
     }
+    /**
+     *12 Function to integrated test for Top N populated Cities in the world
+     */
+    @Test
+    void TopNCities_World_Test() {
 
+        String expectedName = "Seoul";
+        String expectedCountry = "South Korea";
+        String expectedDistrict = "Seoul";
+        int expectedPopulation =  9981619 ;
 
+        ArrayList<City> cities = app.citytopnworld();
+
+        assertEquals(expectedName,cities.get(1).getName());
+        assertEquals(expectedCountry,cities.get(1).getCountry());
+        assertEquals(expectedDistrict,cities.get(1).getDistrict());
+        assertEquals(expectedPopulation,cities.get(1).getPopulation());
+
+        System.out.println("Testing of retrieving Top N populated cities in the world completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     *13. Function to integrated test for Top N populated Cities in the Continent
+     */
+    @Test
+    void TopNCities_Continent_Test() {
+
+        String expectedName = "Sydney";
+        String expectedCountry = "Australia";
+        String expectedDistrict = "New South Wales";
+        int expectedPopulation = 3276207;
+
+        ArrayList<City> cities = app.citytopncontinent();
+
+        assertEquals(expectedName,cities.get(0).getName());
+        assertEquals(expectedCountry,cities.get(0).getCountry());
+        assertEquals(expectedDistrict,cities.get(0).getDistrict());
+        assertEquals(expectedPopulation,cities.get(0).getPopulation());
+
+        System.out.println("Top N populated cities in the continent test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     *14. Function to integrated test for Top N populated Cities in the region
+     */
+    @Test
+    void TopNCities_Region_Test() {
+
+        String expectedName = "Berlin";
+        String expectedCountry = "Germany";
+        String expectedDistrict = "Berliini";
+        int expectedPopulation = 3386667  ;
+
+        ArrayList<City> cities = app.citytopnregion();
+
+        assertEquals(expectedName,cities.get(0).getName());
+        assertEquals(expectedCountry,cities.get(0).getCountry());
+        assertEquals(expectedDistrict,cities.get(0).getDistrict());
+        assertEquals(expectedPopulation,cities.get(0).getPopulation());
+
+        System.out.println("Top N populated cities in the region test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     * 15. Function to integrated test for Top N populated Cities in the Country
+     */
+    @Test
+    void TopNCities_Countries() {
+
+        String expectedName = "Paris";
+        String expectedCountry = "France";
+        String expectedDistrict = "Île-de-France";
+        int expectedPopulation = 2125246  ;
+
+        ArrayList<City> cities = app.citytopncountry();
+
+        assertEquals(expectedName,cities.get(0).getName());
+        assertEquals(expectedCountry,cities.get(0).getCountry());
+        assertEquals(expectedDistrict,cities.get(0).getDistrict());
+        assertEquals(expectedPopulation,cities.get(0).getPopulation());
+
+        System.out.println("Top N populated cities in the Country test completed successfully!!");
+        System.out.println("=================================================================================================");
     }
 
+    /**
+     * 16. Function to integrated test for Top N populated Cities in the District
+     */
+    @Test
+    void TopNCities_District() {
+
+        String expectedName = "Los Angeles";
+        String expectedCountry = "United States";
+        String expectedDistrict = "California";
+        int expectedPopulation = 3694820  ;
+
+        ArrayList<City> cities = app.citytopndistrict();
+
+        assertEquals(expectedName,cities.get(0).getName());
+        assertEquals(expectedCountry,cities.get(0).getCountry());
+        assertEquals(expectedDistrict,cities.get(0).getDistrict());
+        assertEquals(expectedPopulation,cities.get(0).getPopulation());
+
+        System.out.println("Top N populated cities in the District test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     *17. Function to integrated test for Capital Cities in the world from the largest population to smallest
+     */
+    @Test
+    void Num_Test_CCWorld() {
+
+        ArrayList<Capital> cap_cities = app.capitalworld();
+        assertEquals(232, cap_cities.size());
+
+        System.out.println("All the capital cities in the world from largest population to smallest test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     *18, Function to integrated test for Capital Cities in the world from the largest population to smallest
+     */
+    @Test
+    void Num_Test_CCContinent() {
+
+        ArrayList<Capital> cap_cities = app.capitalcontinent();
+        assertEquals(51, cap_cities.size());
+
+        System.out.println("All the capital cities in the Continent from largest population to smallest test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     * 19.Function to integrated test for Capital Cities in the Region from the largest population to smallest
+     */
+    @Test
+    void Test_CCRegion() {
+
+        String expectedName = "Abu Dhabi";
+        String expectedCountry = "United Arab Emirates";
+        String expectedDistrict = "Abu Dhabi";
+        int expectedPopulation = 398695 ;
+
+        ArrayList<Capital> cap_cities = app.capitalregion();
+
+        assertEquals(expectedName,cap_cities.get(11).getName());
+        assertEquals(expectedCountry,cap_cities.get(11).getCountry());
+        assertEquals(expectedDistrict,cap_cities.get(11).getDistrict());
+        assertEquals(expectedPopulation,cap_cities.get(11).getPopulation());
+
+        System.out.println("All the Populated Capital Cities in the Region test completed Successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     * 20.Function to integrated test for Top N populated capital cities in the World test completed successfully
+     */
+    @Test
+    void Test_TopNCC_World() {
+
+        String expectedName = "Moscow";
+        String expectedCountry = "Russian Federation";
+        String expectedDistrict = "Moscow (City)";
+        int expectedPopulation = 8389200 ;
+
+        ArrayList<Capital> cap_cities = app.capitaltopnworld();
+
+        assertEquals(expectedName,cap_cities.get(3).getName());
+        assertEquals(expectedCountry,cap_cities.get(3).getCountry());
+        assertEquals(expectedDistrict,cap_cities.get(3).getDistrict());
+        assertEquals(expectedPopulation,cap_cities.get(3).getPopulation());
+
+        System.out.println("Top N populated capital cities in the World test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     * 21.Function to integrated test for Top N populated capital cities in the Continent test completed successfully
+     */
+    @Test
+    void TopNCC_Continent_Test() {
+
+        String expectedName = "Taipei";
+        String expectedCountry = "Taiwan";
+        String expectedDistrict = "Taipei";
+        int expectedPopulation = 2641312  ;
+
+        ArrayList<Capital> cap_cities = app.capitaltopncontinent();
+
+        assertEquals(expectedName,cap_cities.get(12).getName());
+        assertEquals(expectedCountry,cap_cities.get(12).getCountry());
+        assertEquals(expectedDistrict,cap_cities.get(12).getDistrict());
+        assertEquals(expectedPopulation,cap_cities.get(12).getPopulation());
+
+        System.out.println("Top N populated capital cities in the Continent test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     * 22.Function to integrated test for Top N populated capital cities in the Region test completed successfully
+     */
+    @Test
+    void TopN_CC_Region_Test() {
+
+        String expectedName = "Victoria";
+        String expectedCountry = "Hong Kong";
+        String expectedDistrict = "Hongkong";
+        int expectedPopulation = 1312637   ;
+
+        ArrayList<Capital> cap_cities = app.capitaltopnregion();
+
+        assertEquals(expectedName,cap_cities.get(5).getName());
+        assertEquals(expectedCountry,cap_cities.get(5).getCountry());
+        assertEquals(expectedDistrict,cap_cities.get(5).getDistrict());
+        assertEquals(expectedPopulation,cap_cities.get(5).getPopulation());
+
+        System.out.println("Top N populated capital cities in the Region test completed successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each continent
+     * */
+    @Test
+    void test_Population_City_Continent() {
+
+        ArrayList<Population> populations = app.populationcitycontinent();
+        assertEquals(6, populations.size());
+
+        System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each continent is successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each region
+     * */
+    @Test
+    void test_Population_City_Region() {
+
+        ArrayList<Population> populations = app.populationcityregion();
+        assertEquals(23, populations.size());
+
+        System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each region is successfully!!");
+        System.out.println("=================================================================================================");
+    }
+
+    /**
+     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each country
+     * */
+    @Test
+    void testSizeOfPopulation_Country() {
+
+        ArrayList<Population> populations = app.populationcitycountry();
+        assertEquals(232, populations.size());
+
+        System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each country is successfully!!");
+        System.out.println("=================================================================================================");
+    }
+}

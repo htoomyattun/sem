@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Integration Upgrade + Fix">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Integration Upgrade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/db/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/world.sql" beforeDir="false" afterPath="$PROJECT_DIR$/db/world_db/world.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
     </list>
@@ -87,11 +84,12 @@
       <recent name="C:\Users\user\IdeaProjects\sem\use-cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\sem\db" />
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1\db" />
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="JUnit.IntegrationTest.TotalPopulation_World">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -120,7 +118,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.CityinRegionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.TotalPopulation_World" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -130,7 +128,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="CityinRegionTest" />
+      <option name="METHOD_NAME" value="TotalPopulation_World" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,7 +287,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.IntegrationTest.CityinRegionTest" />
+      <item itemvalue="JUnit.IntegrationTest.TotalPopulation_World" />
       <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
       <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
       <item itemvalue="JUnit.IntegrationTest" />
@@ -300,11 +298,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_World" />
         <item itemvalue="Application.App" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
         <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
-        <item itemvalue="JUnit.IntegrationTest.CityinRegionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -326,13 +324,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00052" summary="Integration Testing">
-      <created>1671993660050</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1671993660050</updated>
     </task>
     <task id="LOCAL-00053" summary="Integration Testing">
       <created>1671993818637</created>
@@ -670,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672149268969</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="Integration Upgrade">
+      <created>1672181914729</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1672181914730</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -691,7 +689,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HAH Querry 5" />
     <MESSAGE value="HAH Querry 6" />
     <MESSAGE value="HAH Querry 7 &amp; Test" />
     <MESSAGE value="Thuta queries update" />
@@ -716,7 +713,8 @@
     <MESSAGE value="More Test" />
     <MESSAGE value="query update" />
     <MESSAGE value="Integration Upgrade + Fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integration Upgrade + Fix" />
+    <MESSAGE value="Integration Upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integration Upgrade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

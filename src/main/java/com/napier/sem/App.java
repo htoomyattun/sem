@@ -189,33 +189,33 @@ public class App
         System.out.println(world);
 
         // 27. Population in the Continent
-        app.populationcontinent("Asia");
+        app.populationcontinent("North America");
         // get output from extracting total population in the continent to put into markdown file
-        String continent =  app.populationcontinent("Asia");
+        String continent =  app.populationcontinent("North America");
         System.out.println(continent);
 
         // 28. Population in the Region
-        app.populationregion("Caribbean");
+        app.populationregion("British Islands");
         // get output from extracting total population in the region to put into markdown file
-        String region =  app.populationregion("Caribbean");
+        String region =  app.populationregion("British Islands");
         System.out.println(region);
 
         // 29. Population in the Country
-        app.populationcountry("Denmark");
+        app.populationcountry("Myanmar");
         // get output from extracting total population in the country to put into markdown file
-        String country =  app.populationcountry("Denmark");
+        String country =  app.populationcountry("Myanmar");
         System.out.println(country);
 
         // 30. Population in the District
-        app.populationdistrict("Gujarat");
+        app.populationdistrict("Texas");
         // get output from extracting total population in the district to put into markdown file
-        String district =  app.populationdistrict("Gujarat");
+        String district =  app.populationdistrict("Texas");
         System.out.println(district);
 
         // 31. Population in the City
-        app.populationcity("Seoul");
+        app.populationcity("Amsterdam");
         // get output from extracting total population in the city to put into markdown file
-        String city =  app.populationcity("Seoul");
+        String city =  app.populationcity("Amsterdam");
         System.out.println(city);
 //////////////////////////////////////////////////////////
 

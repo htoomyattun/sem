@@ -1368,7 +1368,6 @@ public class App
             {
                 pop.setTotalpopulation(result.getLong("SUM(Population)"));
             }
-
             popp = "\n26. Population in the world is " + pop.getTotalpopulation() + ".";
         }
         catch (Exception e)

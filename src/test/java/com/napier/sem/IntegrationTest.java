@@ -501,7 +501,7 @@ public class IntegrationTest {
     }
 
     /**
-     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each continent
+     *23. Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each continent
      * */
     @Test
     void test_Population_City_Continent() {
@@ -514,7 +514,7 @@ public class IntegrationTest {
     }
 
     /**
-     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each region
+     *24. Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each region
      * */
     @Test
     void test_Population_City_Region() {
@@ -527,10 +527,10 @@ public class IntegrationTest {
     }
 
     /**
-     * Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each country
+     *25. Function to integrated test for information of number of population of people, people living in cities, and people not living in cities in each country
      * */
     @Test
-    void testSizeOfPopulation_Country() {
+    void test_Population_City_Country() {
 
         ArrayList<Population> populations = app.populationcitycountry();
         assertEquals(232, populations.size());
@@ -538,6 +538,80 @@ public class IntegrationTest {
         System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each country is successfully!!");
         System.out.println("=================================================================================================");
     }
+    @Test
+    void TotalPopulation_World() {
+        // Extract total population in the world
 
+        //expected output of number of people in the world
+        String expectedOutput = "\n26. Population in the world is 6078749450.";
+        //actual output of  number of people in the world
+        String actualOutput = app.populationworld();
+        assertEquals(expectedOutput, actualOutput);
+        System.out.println("Population of the World Testing completed Successfully.");
+        System.out.println("=================================================================================================");
+    }
+    @Test
+    void TotalPopulation_Continent() {
+        // Extract total population in the continent
+        String continent = "North America";
+        //expected output of number of people in the Asia Continent
+        String expectedOutput = "\n27. Population in North America Continent is 482993000.";
+        //actual output of  number of people in the Asia Continent
+        String actualOutput = app.populationcontinent(continent);
+        assertEquals(expectedOutput, actualOutput);
+        System.out.println("Population of the " + continent + " continent testing completed successfully");
+        System.out.println("=================================================================================================");
+    }
+    @Test
+    void TotalPopulation_Region() {
+        // Extract total population in the region
+        String region = "British Islands";
+        //expected output of number of people in the Caribbean Region
+        String expectedOutput = "\n28. Population in British Islands Region is 63398500.";
+        //actual output of  number of people in the Caribbean Region
+        String actualOutput = app.populationregion(region);
+        assertEquals(expectedOutput, actualOutput);
+
+        System.out.println("Population of the " + region + " region testing completed successfully");
+        System.out.println("=================================================================================================");
+    }
+    @Test
+    void TotalPopulation_Country() {
+        // Extract total population in the country
+        String country = "Myanmar";
+        //expected output of number of people in the Denmark Country
+        String expectedOutput = "\n29. Population in Myanmar Country is 45611000.";
+        //actual output of  number of people in the Denmark Country
+        String actualOutput = app.populationcountry(country);
+        assertEquals(expectedOutput, actualOutput);
+        System.out.println("Population of" + country + " country testing completed successfully");
+        System.out.println("=================================================================================================");
+    }
+
+    @Test
+    void TotalPopulation_District() {
+        // Extract total population in the district
+        String district = "Texas";
+        //expected output of number of people in the Gujarat District
+        String expectedOutput = "\n30. Population in Texas District is 9208281.";
+        //actual output of  number of people in the Gujarat District
+        String actualOutput = app.populationdistrict(district);
+        assertEquals(expectedOutput, actualOutput);
+        System.out.println("Population of " + district + " district testing completed successfully");
+        System.out.println("=================================================================================================");
+    }
+
+    @Test
+    void TotalPopulation_City(){
+        // Extract total population in the city
+        String city = "Amsterdam";
+        //expected output of number of people in the Seoul city
+        String expectedOutput = "\n31. Population in Amsterdam City is 731200.";
+        //actual output of  number of people in the Seoul City
+        String actualOutput = app.populationcity(city);
+        assertEquals(expectedOutput, actualOutput);
+        System.out.println("Population of " + city + " city testing completed successfully");
+        System.out.println("=================================================================================================");
+    }
 
 }

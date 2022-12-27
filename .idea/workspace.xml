@@ -89,7 +89,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest.TotalPopulation_World">
+  <component name="RunManager" selected="JUnit.IntegrationTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -118,6 +118,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IntegrationTest.TotalPopulation_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="seMethods" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.napier.sem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.napier.sem" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
+      <option name="METHOD_NAME" value="TotalPopulation_Continent" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IntegrationTest.TotalPopulation_World" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
@@ -134,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.testPopulation_cityContinent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.getTotalPopulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -144,23 +160,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="testPopulation_cityContinent" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IntegrationTest.testSizeOfPopulation_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="seMethods" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.napier.sem.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="testSizeOfPopulation_Continent" />
+      <option name="METHOD_NAME" value="getTotalPopulation" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -287,9 +287,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
+      <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
+      <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
       <item itemvalue="JUnit.IntegrationTest.TotalPopulation_World" />
-      <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
-      <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
       <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
@@ -298,11 +298,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_World" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.testPopulation_cityContinent" />
-        <item itemvalue="JUnit.IntegrationTest.testSizeOfPopulation_Continent" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
+        <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
+        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_World" />
       </list>
     </recent_temporary>
   </component>
@@ -324,13 +324,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00053" summary="Integration Testing">
-      <created>1671993818637</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1671993818637</updated>
     </task>
     <task id="LOCAL-00054" summary="Workflow">
       <created>1671993966363</created>
@@ -668,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672181914730</updated>
     </task>
-    <option name="localTasksCounter" value="102" />
+    <task id="LOCAL-00102" summary="Integration Upgrade">
+      <created>1672183713552</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1672183713553</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -728,6 +728,20 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/napier/sem/App.java</url>
           <line>1350</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java</url>
+          <line>553</line>
+          <properties class="com.napier.sem.IntegrationTest" method="TotalPopulation_Continent">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

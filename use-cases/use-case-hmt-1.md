@@ -6,7 +6,7 @@
 As an Scrum Master I want to produce a report of all the countries in the world organised by largest population to smallest so that reviewing population of countries can be easier.
 
 # Scope
-Population of all the countries in the world 
+Organization 
 
 # Level
 Primary Task
@@ -28,4 +28,13 @@ The organization requires reporting on population information.
 
 # MAIN SUCCESS SCENARIO
 Setup github, uses dockerfiles, link database, and then make a report.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Upgraded ++++">
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="(Upgraded ++++)x2">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
     </list>
@@ -84,11 +85,12 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\IdeaProjects\sem\db" />
+      <recent name="C:\Users\user\IdeaProjects\sem\db\world_db" />
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1\db" />
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
+  <component name="RunManager" selected="JUnit.IntegrationTest.GetPopulationEmpty">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -117,7 +119,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.TotalPopulation_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.GetCountriesEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -127,13 +129,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="TotalPopulation_Continent" />
+      <option name="METHOD_NAME" value="GetCountriesEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.getTotalPopulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.GetPopulationEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -143,13 +145,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="getTotalPopulation" />
+      <option name="METHOD_NAME" value="GetPopulationEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.test_Population_City_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IntegrationTest.TestEmptyCities" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -159,7 +161,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="test_Population_City_Continent" />
+      <option name="METHOD_NAME" value="TestEmptyCities" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -286,9 +288,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
-      <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
-      <item itemvalue="JUnit.IntegrationTest.test_Population_City_Continent" />
+      <item itemvalue="JUnit.IntegrationTest.GetCountriesEmpty" />
+      <item itemvalue="JUnit.IntegrationTest.GetPopulationEmpty" />
+      <item itemvalue="JUnit.IntegrationTest.TestEmptyCities" />
       <item itemvalue="JUnit.IntegrationTest" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
@@ -297,11 +299,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IntegrationTest.GetPopulationEmpty" />
+        <item itemvalue="JUnit.IntegrationTest.TestEmptyCities" />
         <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.test_Population_City_Continent" />
+        <item itemvalue="JUnit.IntegrationTest.GetCountriesEmpty" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
-        <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
       </list>
     </recent_temporary>
   </component>
@@ -323,13 +325,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00055" summary="Workflow">
-      <created>1671994591608</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1671994591608</updated>
     </task>
     <task id="LOCAL-00056" summary="Workflow">
       <created>1671994661975</created>
@@ -667,7 +662,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672185247238</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="(Upgraded ++++)x2">
+      <created>1672186113456</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1672186113456</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -688,7 +690,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HAH Querry 7 &amp; Test" />
     <MESSAGE value="Thuta queries update" />
     <MESSAGE value="main.yml changes" />
     <MESSAGE value="Unit Testing Bye&quot;" />
@@ -713,7 +714,8 @@
     <MESSAGE value="Integration Upgrade + Fix" />
     <MESSAGE value="Integration Upgrade" />
     <MESSAGE value="Upgraded ++++" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded ++++" />
+    <MESSAGE value="(Upgraded ++++)x2" />
+    <option name="LAST_COMMIT_MESSAGE" value="(Upgraded ++++)x2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -733,14 +735,9 @@
           <line>9</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java</url>
-          <line>515</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java</url>
-          <line>562</line>
+          <line>568</line>
           <properties class="com.napier.sem.IntegrationTest" method="TotalPopulation_Continent">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />

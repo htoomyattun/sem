@@ -547,6 +547,9 @@ public class IntegrationTest {
         System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each country is successfully!!");
         System.out.println("=================================================================================================");
     }
+    /**
+     *26. Function to integrated test for Population of the World
+     * */
     @Test
     void TotalPopulation_World() {
         // Extract total population in the world
@@ -559,6 +562,9 @@ public class IntegrationTest {
         System.out.println("Population of the World Testing completed Successfully.");
         System.out.println("=================================================================================================");
     }
+    /**
+     *27. Function to integrated test for Total Population in a Continent
+     * */
     @Test
     void TotalPopulation_Continent() {
         // Extract total population in the continent
@@ -571,6 +577,9 @@ public class IntegrationTest {
         System.out.println("Population of the " + continent + " continent testing completed successfully");
         System.out.println("=================================================================================================");
     }
+    /**
+     *28. Function to integrated test for Total Population in a Region
+     * */
     @Test
     void TotalPopulation_Region() {
         // Extract total population in the region
@@ -584,6 +593,9 @@ public class IntegrationTest {
         System.out.println("Population of the " + region + " region testing completed successfully");
         System.out.println("=================================================================================================");
     }
+    /**
+     *29. Function to integrated test for Total Population in a Country
+     * */
     @Test
     void TotalPopulation_Country() {
         // Extract total population in the country
@@ -596,7 +608,9 @@ public class IntegrationTest {
         System.out.println("Population of" + country + " country testing completed successfully");
         System.out.println("=================================================================================================");
     }
-
+    /**
+     *30. Function to integrated test for Total Population in a District
+     * */
     @Test
     void TotalPopulation_District() {
         // Extract total population in the district
@@ -609,7 +623,9 @@ public class IntegrationTest {
         System.out.println("Population of " + district + " district testing completed successfully");
         System.out.println("=================================================================================================");
     }
-
+    /**
+     *31. Function to integrated test for Total Population in a City
+     * */
     @Test
     void TotalPopulation_City(){
         // Extract total population in the city
@@ -622,5 +638,79 @@ public class IntegrationTest {
         System.out.println("Population of " + city + " city testing completed successfully");
         System.out.println("=================================================================================================");
     }
+    /**
+     *. Function to integrated testing for null nunmbers for countries in the world/Continent/Region
+     * */
+
+    @Test
+    void TestEmptyCountries(){
+        ArrayList <Country> countriesworld = app.countryworld();
+        assertTrue(countriesworld.size() > 0);
+        System.out.println("Testing for countries in world array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <Country> countriescontinent = app.countrycontinent();
+        assertTrue(countriescontinent.size() > 0);
+        System.out.println("Testing for countries in continent array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <Country> countries_region = app.countryregion();
+        assertTrue(countries_region.size() > 0);
+        System.out.println("Testing for countries in region array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+    }
+    /**
+     *. Function to integrated testing for null nunmbers for cities in the world/Continent/Region/Country/District
+     * */
+
+    @Test
+    void TestEmptyCities(){
+        ArrayList <City> citiesworld = app.cityworld();
+        assertTrue(citiesworld.size() > 0);
+        System.out.println("Testing for Cities in world array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <City> citiescontinent = app.citycontinent();
+        assertTrue(citiescontinent.size() > 0);
+        System.out.println("Testing for Cities in continent array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <City> citiesregion = app.cityregion();
+        assertTrue(citiesregion.size() > 0);
+        System.out.println("Testing for Cities in region array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <City> citiescountry = app.citycountry();
+        assertTrue(citiescountry.size() > 0);
+        System.out.println("Testing for Cities in country array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <City> citiesdistrict = app.citydistrict();
+        assertTrue(citiesdistrict.size() > 0);
+        System.out.println("Testing for Cities in district array size not being zero completed");
+        System.out.println("=================================================================================================");
+    }
+    /**
+     *. Function to integrated testing for null nunmbers for capital cities in the world/Continent/Region
+     * */
+    @Test
+    void TestEmptyCCity(){
+        ArrayList <Capital> capworld = app.capitalworld();
+        assertTrue(capworld.size() > 0);
+        System.out.println("Testing for Capital city in world array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <Capital> capcontinent = app.capitalcontinent();
+        assertTrue(capcontinent.size() > 0);
+        System.out.println("Testing for Capital city in the continent array size not being zero completed");
+        System.out.println("=================================================================================================");
+
+        ArrayList <Capital> capregion = app.capitalregion();
+        assertTrue(capregion.size() > 0);
+        System.out.println("Testing for Capital city in the region array size not being zero completed");
+        System.out.println("=================================================================================================");
+    }
+
 
 }

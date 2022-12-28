@@ -505,9 +505,18 @@ public class IntegrationTest {
      * */
     @Test
     void test_Population_City_Continent() {
+        String expectedName = "Oceania";
+        int expectedCountry = 30401150;
+        String expectedDistrict = "13886149(45.68%)";
+        String expectedPopulation ="16515001(54.32%)";
 
         ArrayList<Population> populations = app.populationcitycontinent();
-        assertEquals(6, populations.size());
+
+        assertEquals(expectedName,populations.get(1).getName());
+        assertEquals(expectedCountry,populations.get(1).getTotalpopulation());
+        assertEquals(expectedDistrict,populations.get(1).getCitypopulation());
+        assertEquals(expectedPopulation,populations.get(1).getNotcitypopulation());
+
 
         System.out.println("Testing to retrieve the number of population of people, people living in cities, and people not living in cities in each continent is successfully!!");
         System.out.println("=================================================================================================");

@@ -1,9 +1,10 @@
 package com.napier.sem;
-
+import java.io.File;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
-
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 public class App
 {
     /**
@@ -32,6 +33,8 @@ public class App
         ArrayList<Country> countries = app.countryworld();
         // Print All the countries in the world organised by largest population to smallest.
         app.printCountriesReport(countries);
+        // Print Countries in the world from largest population to smallest into markdown file
+        app.printCountriesReportMD(countries, "CountriesintheWorld.md");
 
 
         // 2. All the countries in a continent organised by largest population to smallest.
@@ -1739,6 +1742,8 @@ public class App
             System.out.println(population_string);
         }
     }
+
+    ///Output for Language
     public void printLanguageReport(ArrayList<Language> language)
     {
         // Check data is not null
@@ -1772,6 +1777,53 @@ public class App
             System.out.println(country_string);
         }
     }
+    /////Output MD for Countries in the World
+    /**
+     * Prints a list of Countries into markdown file.
+     * @param countries The list of Countries to print into markdown file.
+     */
+    public void printCountriesReportMD(ArrayList<Country> countries, String filename) {
+        // Check Countries is not null
+        if (countries == null) {
+            System.out.println("countries");
+            return;
+        }
 
+        StringBuilder sb = new StringBuilder();
+        // Print header
+        sb.append("| Code | Name | Continent | Region | Population | Capital |\r\n");
+        sb.append("| --- | --- | --- | --- | --- | --- |\r\n");
+
+        // Check Country is not empty
+        if (!countries.isEmpty())
+        {
+            // Loop over countries in the list
+            for (Country coun : countries) {
+                // Check Country contain null
+                if (coun == null){ continue;}
+                sb.append("| ").append(coun.getCode()).append(" | ").append(coun.getName()).append(" | ").append(coun.getContinent()).append(" | ").append(coun.getRegion()).append(" | ").append(coun.getPopulation()).append(" | ").append(coun.getCapital()).append(" |\r\n");
+            }
+            try {
+                File report_folder = new File("./reports/");
+                if (!report_folder.exists()){
+                    boolean wassuccessful = report_folder.mkdir();
+                    if (wassuccessful) {
+                        BufferedWriter writer = new BufferedWriter(new FileWriter("./reports/" + filename));
+                        writer.write(sb.toString());
+                        writer.close();
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else
+        {
+            String country_string = "Country Report List is empty";
+            System.out.println(country_string);
+        }
+
+    }
 }
-/// Output and Print Language
+
+

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="read" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="fix">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,13 +333,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00058" summary="...........et">
-      <created>1671994853716</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1671994853716</updated>
     </task>
     <task id="LOCAL-00059" summary="...........et">
       <created>1671996354990</created>
@@ -674,7 +670,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672333839096</updated>
     </task>
-    <option name="localTasksCounter" value="107" />
+    <task id="LOCAL-00107" summary="fix">
+      <created>1672333917183</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1672333917183</updated>
+    </task>
+    <option name="localTasksCounter" value="108" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -695,7 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="main.yml changes" />
     <MESSAGE value="Unit Testing Bye&quot;" />
     <MESSAGE value="TEst" />
     <MESSAGE value="Integration Testing Success!!!!" />
@@ -720,7 +722,8 @@
     <MESSAGE value="Upgraded ++++" />
     <MESSAGE value="Language" />
     <MESSAGE value="read" />
-    <option name="LAST_COMMIT_MESSAGE" value="read" />
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -771,6 +774,9 @@
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/sem2$App.ic" NAME="App Coverage Results" MODIFIED="1671891924832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sem$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1672334305205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
   </component>

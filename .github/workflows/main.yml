@@ -20,13 +20,13 @@ jobs:
           distribution: 'adopt'
       - name: UnitTests
         run: mvn -Dtest=com.napier.sem/UnitTests.java  test
-               - name: CodeCov
-               uses: codecov/codecov-action@v2
-               with:
-                 # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
-                 directory: ./target/site/jacoco
-                 flags: Unit Tests # optional
-                 verbose: true # optional (default = false)
+      - name: CodeCov
+        uses: codecov/codecov-action@v2
+        with:
+          # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+          directory: ./target/site/jacoco
+          flags: UnitTests # optional
+          verbose: true # optional (default = false)
 
   IntegrationTest:
     name: IntegrationTest
@@ -73,12 +73,10 @@ jobs:
           distribution: 'adopt'
       - name: Package and Run docker compose
         run: |
-          mvn package -DskipTests
-          docker-compose up --abort-on-container-exit
-          - uses: "marvinpinto/action-automatic-releases@latest"
-                  with:
-                    repo_token: "${{ secrets.GITHUB_TOKEN }}"
-                    prerelease: false
-                    automatic_release_tag: "latest"
-                    files: |
-                      ./target/*.jar
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          automatic_release_tag: "latest"
+          files: |
+            ./target/*.jar

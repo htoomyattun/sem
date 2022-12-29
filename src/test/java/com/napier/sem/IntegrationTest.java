@@ -638,6 +638,11 @@ public class IntegrationTest {
         System.out.println("Population of " + city + " city testing completed successfully");
         System.out.println("=================================================================================================");
     }
+
+
+    ////////Null Number Testing                        //////////////////////////////////////////////////
+    /////////////////////////////////////////////////////////////////////////////////////////////////////
+
     /**
      *. Function to integrated testing for null nunmbers for countries in the world/Continent/Region
      * */
@@ -661,7 +666,8 @@ public class IntegrationTest {
 
     }
     /**
-     *. Function to integrated testing for null nunmbers for cities in the world/Continent/Region/Country/District
+     *. Function to integrated testing for Empty
+     *   nunmbers for cities in the world/Continent/Region/Country/District
      * */
 
     @Test
@@ -711,6 +717,7 @@ public class IntegrationTest {
         System.out.println("Testing for Capital city in the region array size not being zero completed");
         System.out.println("=================================================================================================");
     }
+   
 
 
 }

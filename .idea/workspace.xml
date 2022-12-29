@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Upgraded ++++">
-      <change afterPath="$PROJECT_DIR$/Codeofconduct.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="(Upgraded ++++)x2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +89,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
+  <component name="RunManager" selected="JUnit.UnitTests">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -104,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -113,13 +112,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.TotalPopulation_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests.CountriesReportTestNull" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -128,14 +127,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="TotalPopulation_Continent" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
+      <option name="METHOD_NAME" value="CountriesReportTestNull" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.getTotalPopulation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests.printAllCitiesTestEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -144,14 +143,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="getTotalPopulation" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
+      <option name="METHOD_NAME" value="printAllCitiesTestEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegrationTest.test_Population_City_Continent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests.printCountriesTestEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -160,8 +159,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
-      <option name="MAIN_CLASS_NAME" value="com.napier.sem.IntegrationTest" />
-      <option name="METHOD_NAME" value="test_Population_City_Continent" />
+      <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
+      <option name="METHOD_NAME" value="printCountriesTestEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -288,10 +287,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
-      <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
-      <item itemvalue="JUnit.IntegrationTest.test_Population_City_Continent" />
-      <item itemvalue="JUnit.IntegrationTest" />
+      <item itemvalue="JUnit.UnitTests" />
+      <item itemvalue="JUnit.UnitTests.CountriesReportTestNull" />
+      <item itemvalue="JUnit.UnitTests.printAllCitiesTestEmpty" />
+      <item itemvalue="JUnit.UnitTests.printCountriesTestEmpty" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
       <item itemvalue="Maven.seMethods [deploy] (2)" />
@@ -299,11 +298,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="JUnit.IntegrationTest.test_Population_City_Continent" />
+        <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.IntegrationTest.TotalPopulation_Continent" />
-        <item itemvalue="JUnit.IntegrationTest.getTotalPopulation" />
+        <item itemvalue="JUnit.UnitTests.CountriesReportTestNull" />
+        <item itemvalue="JUnit.UnitTests.printAllCitiesTestEmpty" />
+        <item itemvalue="JUnit.UnitTests.printCountriesTestEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -740,10 +739,15 @@
           <line>515</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java</url>
           <line>568</line>
-          <properties class="com.napier.sem.IntegrationTest">
+          <properties class="com.napier.sem.IntegrationTest" method="TotalPopulation_Continent">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
@@ -757,10 +761,10 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sem2$App.ic" NAME="App Coverage Results" MODIFIED="1671891924832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/sem2$App.ic" NAME="App Coverage Results" MODIFIED="1671891924832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
   </component>

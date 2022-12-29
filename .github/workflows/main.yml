@@ -18,8 +18,15 @@ jobs:
         with:
           java-version: '19'
           distribution: 'adopt'
-      - name: Unit Tests
+      - name: UnitTests
         run: mvn -Dtest=com.napier.sem/UnitTests.java  test
+               - name: CodeCov
+               uses: codecov/codecov-action@v2
+               with:
+                 # token: ${{ secrets.CODECOV_TOKEN }} # not required for public repos
+                 directory: ./target/site/jacoco
+                 flags: Unit Tests # optional
+                 verbose: true # optional (default = false)
 
   IntegrationTest:
     name: IntegrationTest
@@ -68,3 +75,10 @@ jobs:
         run: |
           mvn package -DskipTests
           docker-compose up --abort-on-container-exit
+          - uses: "marvinpinto/action-automatic-releases@latest"
+                  with:
+                    repo_token: "${{ secrets.GITHUB_TOKEN }}"
+                    prerelease: false
+                    automatic_release_tag: "latest"
+                    files: |
+                      ./target/*.jar

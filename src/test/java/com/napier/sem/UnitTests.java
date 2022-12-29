@@ -192,7 +192,7 @@ void CCityReportTest()
         app.printPopulationReport(populations);
         System.out.println("=================================================================================================\n");
     }
-
+    // 4.Population Report Test
     /**
      * Prints when Population report is null.
      */
@@ -231,8 +231,47 @@ void CCityReportTest()
 
     }
 
+// 5. Language Report Test
+// 3. Capital Cities Report Testing
+@Test
+void LanguageReportTest()
+{
+    System.out.println("Test Method of Language Report~~");
+    ArrayList<Language> languages = new ArrayList<>();
+    Language la = new Language();
+    la.setName("China");
+    la.setPopulation(Long.parseLong("1191843539"));
+    la.setPercentage(19.61f);
+    languages.add(la);
+    app.printLanguageReport(languages);
+    System.out.println("=================================================================================================\n");
+}
+    /**
+     * Prints when Population report is empty.
+     */
+    @Test
+    void LanguageoReportTestEmpty()
+    {
+        System.out.println("Language Report Empty Testing~~");
+        ArrayList<Language> languages = new ArrayList<>();
+        app.printLanguageReport(languages);
+        System.out.println("=================================================================================================\n");
 
+    }
 
+    /**
+     * Prints when Population report contain null.
+     */
+    @Test
+    void printLanguageReportTestContainNull()
+    {
+        System.out.println("Language Report Contain Null Testing~~");
+        ArrayList<Language> languages = new ArrayList<>();
+        languages.add(null);
+        app.printLanguageReport(languages);
+        System.out.println("=================================================================================================");
+
+    }
 
 
 

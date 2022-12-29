@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="(Upgraded ++++)x2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/Language.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Language">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/napier/sem/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/IntegrationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/napier/sem/UnitTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.IntegrationTest">
+  <component name="RunManager" selected="JUnit.UnitTests">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -151,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnitTests.printAllCitiesTestEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UnitTests.LanguageReportTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="seMethods" />
       <extension name="coverage">
         <pattern>
@@ -161,7 +158,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.napier.sem" />
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.UnitTests" />
-      <option name="METHOD_NAME" value="printAllCitiesTestEmpty" />
+      <option name="METHOD_NAME" value="LanguageReportTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -289,9 +286,9 @@
     <list>
       <item itemvalue="Application.App" />
       <item itemvalue="JUnit.IntegrationTest" />
+      <item itemvalue="JUnit.UnitTests.LanguageReportTest" />
       <item itemvalue="JUnit.UnitTests" />
       <item itemvalue="JUnit.UnitTests.CountriesReportTestNull" />
-      <item itemvalue="JUnit.UnitTests.printAllCitiesTestEmpty" />
       <item itemvalue="Maven.seMethods [deploy]" />
       <item itemvalue="Maven.seMethods [deploy] (1)" />
       <item itemvalue="Maven.seMethods [deploy] (2)" />
@@ -299,11 +296,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.IntegrationTest" />
-        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.UnitTests" />
+        <item itemvalue="JUnit.UnitTests.LanguageReportTest" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="JUnit.UnitTests.CountriesReportTestNull" />
-        <item itemvalue="JUnit.UnitTests.printAllCitiesTestEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -325,13 +322,6 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-    </task>
-    <task id="LOCAL-00055" summary="Workflow">
-      <created>1671994591608</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1671994591608</updated>
     </task>
     <task id="LOCAL-00056" summary="Workflow">
       <created>1671994661975</created>
@@ -669,7 +659,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672185247238</updated>
     </task>
-    <option name="localTasksCounter" value="104" />
+    <task id="LOCAL-00104" summary="Language">
+      <created>1672327300099</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1672327300100</updated>
+    </task>
+    <option name="localTasksCounter" value="105" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -690,7 +687,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HAH Querry 7 &amp; Test" />
     <MESSAGE value="Thuta queries update" />
     <MESSAGE value="main.yml changes" />
     <MESSAGE value="Unit Testing Bye&quot;" />
@@ -715,7 +711,8 @@
     <MESSAGE value="Integration Upgrade + Fix" />
     <MESSAGE value="Integration Upgrade" />
     <MESSAGE value="Upgraded ++++" />
-    <option name="LAST_COMMIT_MESSAGE" value="Upgraded ++++" />
+    <MESSAGE value="Language" />
+    <option name="LAST_COMMIT_MESSAGE" value="Language" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

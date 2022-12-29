@@ -34,48 +34,56 @@ public class App
         // Print All the countries in the world organised by largest population to smallest.
         app.printCountriesReport(countries);
         // Print Countries in the world from largest population to smallest into markdown file
-        app.printCountriesReportMD(countries, "CountriesintheWorld.md");
+        app.CountriesReportMD(countries, "CountriesintheWorld.md");
 
 
         // 2. All the countries in a continent organised by largest population to smallest.
         countries = app.countrycontinent();
         // Print All the countries in a continent organised by largest population to smallest.
         app.printCountriesReport(countries);
-
+        // Print Countries in the Continent from largest population to smallest into markdown file
+        app.CountriesReportMD(countries, "CountriesintheContinent.md");
 
         // 3.  All the countries in a region organised by largest population to smallest.
         countries = app.countryregion();
         // Print All the countries in a region organised by largest population to smallest.
         app.printCountriesReport(countries);
+        // Print Countries in the Region from largest population to smallest into markdown file
+        app.CountriesReportMD(countries, "CountriesintheRegion.md");
 
 
+///////////////////////////////////////////////////////////
         // 4. The top N populated countries in the world where N is provided by the user.
         countries = app.countrytopnworld();
         // Print The top N populated countries in the world where N is provided by the user.
         app.printCountriesReport(countries);
-///////////////////////////////////////////////////////////
+        // Print The top N populated countries in the world where N is provided by the user into markdownfile
+        app.CountriesReportMD(countries, "TopNCountryWorld.md");
 
-
-////////////////////////////////////////////////////////////hah
         // 5.The top N populated countries in a continent where N is provided by the user.
         countries = app.countrytopncontinent();
         // Print The top N populated countries in a continent where N is provided by the user.
         app.printCountriesReport(countries);
+        // Print The top N populated countries in the Continent where N is provided by the user into markdownfile
+        app.CountriesReportMD(countries, "TopNCountryContinent.md");
 
         // 6. The top N populated countries in a region where N is provided by the user.
         countries = app.countrytopnregion();
         // Print Top populated Country in the region
         app.printCountriesReport(countries);
+        // Print The top N populated countries in the Region where N is provided by the user into markdownfile
+        app.CountriesReportMD(countries, "TopNCountryRegion.md");
 
+
+        ///////////////////////////////////////////////////////////
         // 7. All the cities in the world organised by largest population to smallest.
         ArrayList<City> cities = app.cityworld();
         // print city data
         app.printCitiesReport(cities);
 
 
-///////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////ttkk
+
 
         // 8.All the cities in a continent organised by largest population to smallest.
         cities = app.citycontinent();
@@ -1780,9 +1788,8 @@ public class App
     /////Output MD for Countries in the World
     /**
      * Prints a list of Countries into markdown file.
-     * @param countries The list of Countries to print into markdown file.
      */
-    public void printCountriesReportMD(ArrayList<Country> countries, String filename) {
+    public void CountriesReportMD(ArrayList<Country> countries, String filename) {
         // Check Countries is not null
         if (countries == null) {
             System.out.println("countries");
@@ -1824,6 +1831,7 @@ public class App
         }
 
     }
+
 }
 
 

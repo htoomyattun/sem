@@ -638,6 +638,28 @@ public class IntegrationTest {
         System.out.println("Population of " + city + " city testing completed successfully");
         System.out.println("=================================================================================================");
     }
+    /**
+     * 32. languages from greatest number to smallest, including the percentage of the world population
+     * */
+    @Test
+    void LanguangePop_Test() {
+
+        String expectedName = "Chinese";
+        long expectedPopulation = 1191843539;
+        float expectedPercentage = (float) 19.606724;
+
+        ArrayList<Language> langu = app.languagepop();
+        String actualName = String.valueOf(langu.get(0).getName());
+        long actualPopulation = langu.get(0).getPopulation();
+        float actualPercentage = langu.get(0).getPercentage();
+
+        assertEquals(expectedName,actualName);
+        assertEquals(expectedPopulation,actualPopulation);
+        assertEquals(expectedPercentage,actualPercentage);
+
+        System.out.println("Population of people who speaks certain languages report testing completed successfully.");
+        System.out.println("=================================================================================================");
+    }
 
 
     ////////Null Number Testing                        //////////////////////////////////////////////////

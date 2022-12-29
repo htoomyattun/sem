@@ -219,6 +219,11 @@ public class App
         System.out.println(city);
 //////////////////////////////////////////////////////////
 
+        // 32. language spoken population
+        ArrayList<Language> languanges = app.languagepop();
+        // print language data
+        app.printLanguageReport(languanges);
+
 
 
 
@@ -1529,6 +1534,62 @@ public class App
     }
 
 
+    /**
+     * 32. languages from greatest number to smallest, including the percentage of the world population
+     */
+    public ArrayList<Language> languagepop(){
+        System.out.println("\n32. Population of people who uses certain languages\n");
+        try
+        {
+            Statement stmt_1 = con.createStatement();  // Create a first SQL statement
+            // Create string for the first SQL statement
+            String getPeopleSpeakLanguage = "SELECT countrylanguage.Language, Sum((countrylanguage.Percentage/100)*country.Population) as totalpopulation FROM countrylanguage, country WHERE country.Code = countrylanguage.CountryCode and countrylanguage.Language IN ('Chinese', 'English', 'Hindi','Spanish','Arabic' ) GROUP BY countrylanguage.Language  ORDER BY totalpopulation desc";
+            // Execute the first SQL statement
+            ResultSet result_1 = stmt_1.executeQuery(getPeopleSpeakLanguage);
+
+            Statement stmt_2 = con.createStatement();  // Create a second SQL statement
+            // Create string for the second SQL statement
+            String getWorldPopulation = "select Sum(Population) as worldpopulation from country;";
+            // Execute the second SQL statement
+            ResultSet result_2 = stmt_2.executeQuery(getWorldPopulation);
+
+            ArrayList<Language> language = new ArrayList<>();
+
+            float worldpopulation = 0;
+
+            while (result_2.next()){
+                worldpopulation = result_2.getLong("worldpopulation");
+            }
+
+            while (result_1.next()) {
+
+                // Calculate percentage of people who speak a language in the world
+                long languagenum = result_1.getLong("totalpopulation");
+
+                float percent = ((float)languagenum / worldpopulation) * (float)(100.00);
+
+                Language langu = new Language();
+                langu.setName(result_1.getString("countrylanguage.Language"));
+                langu.setPopulation(result_1.getLong("totalpopulation"));
+                langu.setPercentage(percent);
+
+                language.add(langu);
+
+            }
+
+
+            return language;
+
+        }
+        catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+            System.out.println("Failed to get population of speakers");
+            return null;
+
+        }
+
+    }
 
 
 
@@ -1546,7 +1607,7 @@ public class App
             return;
         }
         // Print header
-        System.out.printf("%-5s %-15s %-20s %-20s %-20s %-20s%n", "Code", "Name", "Continent", "Region", "Population", "Capital \n");
+        System.out.printf("%-5s %-15s %-20s %-20s %-20s %-20s%n\n", "Code", "Name", "Continent", "Region", "Population", "Capital ");
 //        System.out.println("\n");
 
         // Check Country is not empty
@@ -1585,7 +1646,7 @@ public class App
             return;
         }
         // Print header
-        System.out.printf("%-25s %-25s %-25s %-25s%n", "City Name", "Country Name", "District", "Population \n");
+        System.out.printf("%-25s %-25s %-25s %-25s%n\n", "City Name", "Country Name", "District", "Population ");
 //        System.out.println("\n");
 
         // Check City is not empty
@@ -1619,7 +1680,7 @@ public class App
             return;
         }
         // Print header
-        System.out.printf("%-25s %-25s %-25s %-25s%n", "City Name", "Country Name", "District", "Population");
+        System.out.printf("%-25s %-25s %-25s %-25s%n\n", "City Name", "Country Name", "District", "Population");
 
         // Check Capital City is not empty
         if (!capitalcities.isEmpty())
@@ -1654,7 +1715,7 @@ public class App
         }
 
         // Print header
-        System.out.printf("%-25s %-25s %-25s %-25s%n", "Place", "Total Population", "Population of City", "Population not from City");
+        System.out.printf("%-25s %-25s %-25s %-25s%n\n", "Place", "Total Population", "Population of City", "Population not from City");
 
 
         // Check populations is not empty
@@ -1678,4 +1739,39 @@ public class App
             System.out.println(population_string);
         }
     }
+    public void printLanguageReport(ArrayList<Language> language)
+    {
+        // Check data is not null
+        if (language == null)
+        {
+            System.out.println("No Data");
+            return;
+        }
+        // Print header
+        System.out.printf("%-30s %-30s %-30s%n\n","Language","Population","Percentage");
+
+
+        // Check Country is not empty
+        if (!language.isEmpty())
+        {
+            // Loop over all countries in the list
+            for (Language langu : language)
+            {
+                // Check Country contain null
+                if (langu == null){
+                    continue;}
+                String lan_string =
+                        String.format("%-30s %-30s %-30s%n",
+                                langu.getName(),langu.getPopulation(),String.format("%.2f%%", langu.getPercentage()));
+                System.out.println(lan_string);
+            }
+        }
+        else
+        {
+            String country_string = "Country Report List is empty";
+            System.out.println(country_string);
+        }
+    }
+
 }
+/// Output and Print Language

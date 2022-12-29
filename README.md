@@ -1,6 +1,6 @@
 # SET09623-DEVOPS 
 
-#Team Members: Htun Aung Hlaing, Htoo Myat Tun, Thuta KoKo
+# Team Members: Htun Aung Hlaing, Htoo Myat Tun, Thuta KoKo
 
 ![workflow](https://github.com/htoomyattun/sem/actions/workflows/main.yml/badge.svg)
 

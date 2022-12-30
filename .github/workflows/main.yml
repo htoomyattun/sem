@@ -81,7 +81,7 @@ jobs:
           prerelease: false
           automatic_release_tag: "latest"
           files: |
-            ./target/*.jar
+            ./target/seMethods.jar
             
       - name: Copy Output
         run: docker container seMethods_app_1:./tmp/reports ./

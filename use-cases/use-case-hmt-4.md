@@ -3,29 +3,40 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Scrum Master i would like to make a report of The top N populated countries in the world where N is provided by the user so that use can check top populated countries.
+The top N populated countries in the world where N is provided by the user.
 
 # Scope
-Population of all the countries in the world by user input
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of all the countries in the world by user input
+Connection to the world database
 
 # Success End Condition
-Easier and less time is required to review the population of the countries in the world by user input
+Report of the population of all the countries in the world by user input
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Scrum Master
+Report Admin
 
 # Trigger
-The organization requires reporting on population information.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Input N value where N is provided by user
+2. Get all populated countries in the world from database.
+3. Print all populated countries in the world from database.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

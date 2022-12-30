@@ -3,29 +3,39 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Scrum Master i would like to make a report of All the cities in a continent organised by largest population to smallest so that population of cities in a continent can be review easier.
+All the cities in a continent organised by largest population to smallest.
 
 # Scope
-Population of all the cities in the continent
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of all the cities in the continent
+Connection to the world database
 
 # Success End Condition
-Easier and less time is required to review the population of the cities in the continent
+Report of the population of all the cities in the continent
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Scrum Master
+Report Admin
 
 # Trigger
-The organization requires reporting on population information.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get all cities in a continent ordered by population
+2. Print all cities in a continent ordered by population
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

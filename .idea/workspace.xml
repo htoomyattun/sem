@@ -7,7 +7,38 @@
     <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="attempt">
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-10.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-10.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-11.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-11.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-12.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-12.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-13.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-13.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-14.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-14.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-15.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-15.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-16.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-16.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-17.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-17.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-18.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-18.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-19.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-19.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-2.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-20.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-21.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-21.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-22.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-22.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-23.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-23.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-24.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-24.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-25.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-25.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-26.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-26.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-27.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-27.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-28.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-28.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-29.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-29.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-3.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-30.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-30.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-31.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-31.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-4.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-5.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-6.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-7.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-8.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-8.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-9.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-9.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +74,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -55,32 +93,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/IdeaProjects/sem/use-cases&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.3754889&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/Coursework/seMethods/sem8/use-cases",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3754889",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem8\use-cases" />
       <recent name="C:\Users\user\IdeaProjects\sem\use-cases" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -315,6 +354,7 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
+      <workItem from="1672380420949" duration="2248000" />
     </task>
     <task id="LOCAL-00063" summary="Hope it Works">
       <created>1671998763530</created>
@@ -752,13 +792,13 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.napier.sem.*</FILTER>
-    </SUITE>
     <SUITE FILE_PATH="coverage/sem$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1672334305205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/sem2$App.ic" NAME="App Coverage Results" MODIFIED="1671891924832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
   </component>

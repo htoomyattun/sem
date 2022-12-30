@@ -2,29 +2,39 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Product Owner, I will generate the report of the population of people, people living in cities, and people not living in cities in each country.
+The population of people, people living in cities, and people not living in cities in each country.
 
 # Scope
-Population of people, people living in cities, and people not living in cities in each country.
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of people, people living in cities, and people not living in cities in each country.
+Connection to the world database
 
 # Success End Condition
-Easy to manage the population of people, people living in cities, and people not living in cities in each country.
+Report of the population of people, people living in cities, and people not living in cities in each country.
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Product Owner
+Report Admin
 
 # Trigger
-The organization asked to make the report.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get the population list of people living in cities and not living in cities in each country from database.
+2. Display the population list of people who live in cities and not live in cities in each country.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

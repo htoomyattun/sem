@@ -18,11 +18,12 @@ public class App
         // Connect to database
         if (args.length < 1)
         {
-            app.connect("localhost:33060" );
+            app.connect("localhost:33060", 0 );
         }
         else
         {
-            app.connect(args[0]);
+            app.connect("db:3306", 30000);
+//            app.connect(args[0], Integer.parseInt(args[1]));
         }
 
 
@@ -257,7 +258,7 @@ public class App
     /**
      * Connect to the MySQL database.
      */
-    public void connect(String location)
+    public void connect(String location, int delay)
     {
         try
         {
@@ -276,19 +277,19 @@ public class App
             System.out.println("Connecting to database ...");
             try
             {
-
+                Thread.sleep(delay);
                 con = DriverManager.getConnection("jdbc:mysql://" + location + "/world?" +
                         "allowPublicKeyRetrieval=true&useSSL=false", "root", "thuta");
                 System.out.println("Successfully connected");
                 break;
-            }
-            catch (SQLException sqle)
-            {
+            } catch (SQLException sqle) {
                 System.out.println("Failed to connect to database attempt " + i);
                 System.out.println(sqle.getMessage());
+            } catch (InterruptedException ie) {
+                System.out.println("Thread interrupted? Should not happen.");
             }
-
         }
+
     }
 
     /**

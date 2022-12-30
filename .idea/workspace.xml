@@ -4,42 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="attempt">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_12_9_2022_11_44_AM__Changes_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" beforeDir="false" afterPath="$PROJECT_DIR$/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-10.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-10.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-11.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-11.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-12.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-12.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-13.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-13.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-14.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-14.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-15.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-15.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-16.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-16.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-17.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-17.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-18.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-18.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-19.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-19.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-2.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-20.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-20.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-21.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-21.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-22.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-22.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-23.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-23.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-24.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-24.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-25.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-25.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-26.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-26.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-27.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-27.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-28.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-28.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-29.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-29.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-3.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-3.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-30.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-30.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-31.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-31.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-4.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-4.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-5.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-5.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-6.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-6.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-7.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-7.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-8.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-8.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use-cases/use-case-hmt-9.md" beforeDir="false" afterPath="$PROJECT_DIR$/use-cases/use-case-hmt-9.md" afterDir="false" />
-    </list>
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="COC and use case changes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -354,14 +319,7 @@
       <workItem from="1671421703777" duration="525000" />
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
-      <workItem from="1672380420949" duration="2248000" />
-    </task>
-    <task id="LOCAL-00063" summary="Hope it Works">
-      <created>1671998763530</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1671998763530</updated>
+      <workItem from="1672380420949" duration="3056000" />
     </task>
     <task id="LOCAL-00064" summary=".......">
       <created>1671999216702</created>
@@ -699,7 +657,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672342391031</updated>
     </task>
-    <option name="localTasksCounter" value="112" />
+    <task id="LOCAL-00112" summary="COC and use case changes">
+      <created>1672382858728</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1672382858728</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -720,7 +685,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Integration Testing" />
     <MESSAGE value="Workflow" />
     <MESSAGE value="...........et" />
     <MESSAGE value="Hope it Works" />
@@ -745,7 +709,8 @@
     <MESSAGE value="Report Branch" />
     <MESSAGE value="Report Branch test" />
     <MESSAGE value="attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="attempt" />
+    <MESSAGE value="COC and use case changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="COC and use case changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

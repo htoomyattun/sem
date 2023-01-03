@@ -81,7 +81,7 @@ public class App
         ArrayList<City> cities = app.cityworld();
         // print city data
         app.printCitiesReport(cities);
-
+        app.CityReportMD(cities, "CitiesintheWorld.md");
 
 
 
@@ -90,11 +90,13 @@ public class App
         cities = app.citycontinent();
         // print city data
         app.printCitiesReport(cities);
+        app.CityReportMD(cities, "CitiesintheContinent.md");
 
         // 9. All the cities in a region organised by largest population to smallest.
         cities = app.cityregion();
         // print city data
         app.printCitiesReport(cities);
+        app.CityReportMD(cities, "CitiesintheRegion.md");
 
         // 10. All the cities in a country organised by largest population to smallest.
         cities = app.citycountry();
@@ -1806,10 +1808,10 @@ public class App
         if (!countries.isEmpty())
         {
             // Loop over countries in the list
-            for (Country coun : countries) {
+            for (Country ctry : countries) {
                 // Check Country contain null
-                if (coun == null){ continue;}
-                sb.append("| ").append(coun.getCode()).append(" | ").append(coun.getName()).append(" | ").append(coun.getContinent()).append(" | ").append(coun.getRegion()).append(" | ").append(coun.getPopulation()).append(" | ").append(coun.getCapital()).append(" |\r\n");
+                if (ctry == null){ continue;}
+                sb.append("| ").append(ctry.getCode()).append(" | ").append(ctry.getName()).append(" | ").append(ctry.getContinent()).append(" | ").append(ctry.getRegion()).append(" | ").append(ctry.getPopulation()).append(" | ").append(ctry.getCapital()).append(" |\r\n");
             }
             try {
                 File report_folder = new File("./reports/");
@@ -1832,7 +1834,53 @@ public class App
         }
 
     }
+    /**
+     * Prints a list of cities into markdown file.
+     * @param cities The list of cities to print into markdown file.
+     */
+    public void CityReportMD(ArrayList<City> cities, String filename) {
+        // Check cities is not null
+        if (cities == null)
+        {
+            System.out.println("No cities");
+            return;
+        }
 
+        StringBuilder sb = new StringBuilder();
+        // Print header
+        sb.append("| City Name | Country Name | District | Population |\r\n");
+        sb.append("| --- | --- | --- | --- |\r\n");
+
+        // Check City is not empty
+        if (!cities.isEmpty())
+        {
+            // Loop over cities in the list
+            for (City city : cities) {
+                // Check Country contain null
+                if (city == null){ continue;}
+                sb.append("| ").append(city.getName()).append(" | ").append(city.getCountry()).append(" | ").append(city.getDistrict()).append(" | ").append(city.getPopulation()).append(" |\r\n");
+            }
+            try {
+                File report_folder = new File("./reports/");
+                if (!report_folder.exists()){
+                    boolean wassuccessful = report_folder.mkdir();
+                    if (wassuccessful) {
+                        BufferedWriter writer = new BufferedWriter(new FileWriter("./reports/" + filename));
+                        writer.write(sb.toString());
+                        writer.close();
+                    }
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
+        else
+        {
+            String city_string = "City Report List is empty";
+            System.out.println(city_string);
+        }
+
+    }
 }
 
 

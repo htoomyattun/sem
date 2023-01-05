@@ -65,7 +65,7 @@ https://zube.io/group5-3/gp5/w/workspace-1/kanban
 | 28  | The population of a region.                                                                           | Yes | ![](screenshot/ss-28.PNG) |
 | 29  | The population of a country.                                                                          | Yes | ![](screenshot/ss-29.PNG) |
 | 30  | The population of a district.                                                                         | Yes | ![](screenshot/ss-30.PNG) |
-| 31  | The population of a city.                                                                             | Yes | ![](screenshot/ss-31.png) |
-| 32  | Languages from the greatest number to smallest, including the percentage of the world population      | Yes | ![](screenshot/ss-32.png) |
+| 31  | The population of a city.                                                                             | Yes | ![](screenshot/ss-31.PNG) |
+| 32  | Languages from the greatest number to smallest, including the percentage of the world population      | Yes | ![](screenshot/ss-32.PNG) |
 
 

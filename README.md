@@ -60,11 +60,11 @@ https://zube.io/group5-3/gp5/w/workspace-1/kanban
 | 23  | The population of people, people living in cities, and people not living in cities in each continent. | Yes | ![](screenshot/ss-23.PNG) |
 | 24  | The population of people, people living in cities, and people not living in cities in each region.    | Yes | ![](screenshot/ss-24.PNG) |
 | 25  | The population of people, people living in cities, and people not living in cities in each country.   | Yes | ![](screenshot/ss-25.PNG) |
-| 26  | The population of the world.                                                                          | Yes | ![](screenshot/ss-26.png) |
-| 27  | The population of a continent.                                                                        | Yes | ![](screenshot/ss-27.png) |
-| 28  | The population of a region.                                                                           | Yes | ![](screenshot/ss-28.png) |
-| 29  | The population of a country.                                                                          | Yes | ![](screenshot/ss-29.png) |
-| 30  | The population of a district.                                                                         | Yes | ![](screenshot/ss-30.png) |
+| 26  | The population of the world.                                                                          | Yes | ![](screenshot/ss-26.PNG) |
+| 27  | The population of a continent.                                                                        | Yes | ![](screenshot/ss-27.PNG) |
+| 28  | The population of a region.                                                                           | Yes | ![](screenshot/ss-28.PNG) |
+| 29  | The population of a country.                                                                          | Yes | ![](screenshot/ss-29.PNG) |
+| 30  | The population of a district.                                                                         | Yes | ![](screenshot/ss-30.PNG) |
 | 31  | The population of a city.                                                                             | Yes | ![](screenshot/ss-31.png) |
 | 32  | Languages from the greatest number to smallest, including the percentage of the world population      | Yes | ![](screenshot/ss-32.png) |
 

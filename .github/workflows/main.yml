@@ -83,10 +83,3 @@ jobs:
           files: |
             ./target/seMethods.jar
             
-      - name: Copy Output
-        run: docker container seMethods_app_1:./tmp/reports ./
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.2.5
-        with:
-          branch: reports # The branch the action should deploy to.
-          folder: reports # The folder we are copying

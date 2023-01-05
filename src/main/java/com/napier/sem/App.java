@@ -1,10 +1,8 @@
 package com.napier.sem;
-import java.io.File;
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
-import java.io.BufferedWriter;
-import java.io.FileWriter;
+
 public class App
 {
     /**
@@ -34,23 +32,23 @@ public class App
         ArrayList<Country> countries = app.countryworld();
         // Print All the countries in the world organised by largest population to smallest.
         app.printCountriesReport(countries);
-        // Print Countries in the world from largest population to smallest into markdown file
-        app.CountriesReportMD(countries, "CountriesintheWorld.md");
+
+
 
 
         // 2. All the countries in a continent organised by largest population to smallest.
         countries = app.countrycontinent();
         // Print All the countries in a continent organised by largest population to smallest.
         app.printCountriesReport(countries);
-        // Print Countries in the Continent from largest population to smallest into markdown file
-        app.CountriesReportMD(countries, "CountriesintheContinent.md");
+
+
 
         // 3.  All the countries in a region organised by largest population to smallest.
         countries = app.countryregion();
         // Print All the countries in a region organised by largest population to smallest.
         app.printCountriesReport(countries);
         // Print Countries in the Region from largest population to smallest into markdown file
-        app.CountriesReportMD(countries, "CountriesintheRegion.md");
+
 
 
 ///////////////////////////////////////////////////////////
@@ -58,22 +56,20 @@ public class App
         countries = app.countrytopnworld();
         // Print The top N populated countries in the world where N is provided by the user.
         app.printCountriesReport(countries);
-        // Print The top N populated countries in the world where N is provided by the user into markdownfile
-        app.CountriesReportMD(countries, "TopNCountryWorld.md");
 
         // 5.The top N populated countries in a continent where N is provided by the user.
         countries = app.countrytopncontinent();
         // Print The top N populated countries in a continent where N is provided by the user.
         app.printCountriesReport(countries);
-        // Print The top N populated countries in the Continent where N is provided by the user into markdownfile
-        app.CountriesReportMD(countries, "TopNCountryContinent.md");
+
+
 
         // 6. The top N populated countries in a region where N is provided by the user.
         countries = app.countrytopnregion();
         // Print Top populated Country in the region
         app.printCountriesReport(countries);
-        // Print The top N populated countries in the Region where N is provided by the user into markdownfile
-        app.CountriesReportMD(countries, "TopNCountryRegion.md");
+
+
 
 
         ///////////////////////////////////////////////////////////
@@ -81,7 +77,7 @@ public class App
         ArrayList<City> cities = app.cityworld();
         // print city data
         app.printCitiesReport(cities);
-        app.CityReportMD(cities, "CitiesintheWorld.md");
+
 
 
 
@@ -90,13 +86,13 @@ public class App
         cities = app.citycontinent();
         // print city data
         app.printCitiesReport(cities);
-        app.CityReportMD(cities, "CitiesintheContinent.md");
+
 
         // 9. All the cities in a region organised by largest population to smallest.
         cities = app.cityregion();
         // print city data
         app.printCitiesReport(cities);
-        app.CityReportMD(cities, "CitiesintheRegion.md");
+
 
         // 10. All the cities in a country organised by largest population to smallest.
         cities = app.citycountry();
@@ -1788,99 +1784,8 @@ public class App
             System.out.println(country_string);
         }
     }
-    /////Output MD for Countries in the World
-    /**
-     * Prints a list of Countries into markdown file.
-     */
-    public void CountriesReportMD(ArrayList<Country> countries, String filename) {
-        // Check Countries is not null
-        if (countries == null) {
-            System.out.println("countries");
-            return;
-        }
 
-        StringBuilder sb = new StringBuilder();
-        // Print header
-        sb.append("| Code | Name | Continent | Region | Population | Capital |\r\n");
-        sb.append("| --- | --- | --- | --- | --- | --- |\r\n");
 
-        // Check Country is not empty
-        if (!countries.isEmpty())
-        {
-            // Loop over countries in the list
-            for (Country ctry : countries) {
-                // Check Country contain null
-                if (ctry == null){ continue;}
-                sb.append("| ").append(ctry.getCode()).append(" | ").append(ctry.getName()).append(" | ").append(ctry.getContinent()).append(" | ").append(ctry.getRegion()).append(" | ").append(ctry.getPopulation()).append(" | ").append(ctry.getCapital()).append(" |\r\n");
-            }
-            try {
-                File report_folder = new File("./reports/");
-                if (!report_folder.exists()){
-                    boolean wassuccessful = report_folder.mkdir();
-                    if (wassuccessful) {
-                        BufferedWriter writer = new BufferedWriter(new FileWriter("./reports/" + filename));
-                        writer.write(sb.toString());
-                        writer.close();
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        else
-        {
-            String country_string = "Country Report List is empty";
-            System.out.println(country_string);
-        }
-
-    }
-    /**
-     * Prints a list of cities into markdown file.
-     * @param cities The list of cities to print into markdown file.
-     */
-    public void CityReportMD(ArrayList<City> cities, String filename) {
-        // Check cities is not null
-        if (cities == null)
-        {
-            System.out.println("No cities");
-            return;
-        }
-
-        StringBuilder sb = new StringBuilder();
-        // Print header
-        sb.append("| City Name | Country Name | District | Population |\r\n");
-        sb.append("| --- | --- | --- | --- |\r\n");
-
-        // Check City is not empty
-        if (!cities.isEmpty())
-        {
-            // Loop over cities in the list
-            for (City city : cities) {
-                // Check Country contain null
-                if (city == null){ continue;}
-                sb.append("| ").append(city.getName()).append(" | ").append(city.getCountry()).append(" | ").append(city.getDistrict()).append(" | ").append(city.getPopulation()).append(" |\r\n");
-            }
-            try {
-                File report_folder = new File("./reports/");
-                if (!report_folder.exists()){
-                    boolean wassuccessful = report_folder.mkdir();
-                    if (wassuccessful) {
-                        BufferedWriter writer = new BufferedWriter(new FileWriter("./reports/" + filename));
-                        writer.write(sb.toString());
-                        writer.close();
-                    }
-                }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
-        }
-        else
-        {
-            String city_string = "City Report List is empty";
-            System.out.println(city_string);
-        }
-
-    }
 }
 
 

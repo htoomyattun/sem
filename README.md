@@ -55,11 +55,11 @@ https://zube.io/group5-3/gp5/w/workspace-1/kanban
 | 18  | All the capital cities in a continent organised by largest population to smallest.                    | Yes | ![](screenshot/ss-18.PNG) |
 | 19  | All the capital cities in a region organised by largest to smallest.                                  | Yes | ![](screenshot/ss-19.PNG) |
 | 20  | The top N populated capital cities in the world where N is provided by the user.                      | Yes | ![](screenshot/ss-20.PNG) |
-| 21  | The top N populated capital cities in a continent where N is provided by the user.                    | Yes | ![](screenshot/ss-21.png) |
-| 22  | The top N populated capital cities in a region where N is provided by the user.                       | Yes | ![](screenshot/ss-22.png) |
-| 23  | The population of people, people living in cities, and people not living in cities in each continent. | Yes | ![](screenshot/ss-23.png) |
-| 24  | The population of people, people living in cities, and people not living in cities in each region.    | Yes | ![](screenshot/ss-24.png) |
-| 25  | The population of people, people living in cities, and people not living in cities in each country.   | Yes | ![](screenshot/ss-25.png) |
+| 21  | The top N populated capital cities in a continent where N is provided by the user.                    | Yes | ![](screenshot/ss-21.PNG) |
+| 22  | The top N populated capital cities in a region where N is provided by the user.                       | Yes | ![](screenshot/ss-22.PNG) |
+| 23  | The population of people, people living in cities, and people not living in cities in each continent. | Yes | ![](screenshot/ss-23.PNG) |
+| 24  | The population of people, people living in cities, and people not living in cities in each region.    | Yes | ![](screenshot/ss-24.PNG) |
+| 25  | The population of people, people living in cities, and people not living in cities in each country.   | Yes | ![](screenshot/ss-25.PNG) |
 | 26  | The population of the world.                                                                          | Yes | ![](screenshot/ss-26.png) |
 | 27  | The population of a continent.                                                                        | Yes | ![](screenshot/ss-27.png) |
 | 28  | The population of a region.                                                                           | Yes | ![](screenshot/ss-28.png) |

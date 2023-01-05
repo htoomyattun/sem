@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="ss table">
-      <change afterPath="$PROJECT_DIR$/screenshot/ss-1.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/ss-2.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/ss-3.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/ss-4.PNG" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/screenshot/ss-5.PNG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="ss table" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -760,13 +752,13 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.napier.sem.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/sem$UnitTests.ic" NAME="UnitTests Coverage Results" MODIFIED="1672334305205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/sem2$App.ic" NAME="App Coverage Results" MODIFIED="1671891924832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.napier.sem.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/sem$App.ic" NAME="App Coverage Results" MODIFIED="1672079981919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.napier.sem.*</FILTER>
     </SUITE>
   </component>

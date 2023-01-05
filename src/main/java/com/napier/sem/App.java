@@ -791,7 +791,7 @@ public class App
                 actiy.setPopulation(result.getInt("city.Population"));
                 cities.add(actiy);
             }
-            System.out.println("\12. The top " + limit + " populated cities in the world. \n");
+            System.out.println("\n12. The top " + limit + " populated cities in the world. \n");
             return cities;
         }
         catch (Exception e)

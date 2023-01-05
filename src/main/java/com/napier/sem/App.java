@@ -1,5 +1,4 @@
 package com.napier.sem;
-
 import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
@@ -17,11 +16,12 @@ public class App
         // Connect to database
         if (args.length < 1)
         {
-            app.connect("localhost:33060" );
+            app.connect("localhost:33060", 0 );
         }
         else
         {
-            app.connect(args[0]);
+            app.connect("db:3306", 30000);
+//            app.connect(args[0], Integer.parseInt(args[1]));
         }
 
 
@@ -34,55 +34,65 @@ public class App
         app.printCountriesReport(countries);
 
 
+
+
         // 2. All the countries in a continent organised by largest population to smallest.
         countries = app.countrycontinent();
         // Print All the countries in a continent organised by largest population to smallest.
         app.printCountriesReport(countries);
 
 
+
         // 3.  All the countries in a region organised by largest population to smallest.
         countries = app.countryregion();
         // Print All the countries in a region organised by largest population to smallest.
         app.printCountriesReport(countries);
+        // Print Countries in the Region from largest population to smallest into markdown file
 
 
+
+///////////////////////////////////////////////////////////
         // 4. The top N populated countries in the world where N is provided by the user.
         countries = app.countrytopnworld();
         // Print The top N populated countries in the world where N is provided by the user.
         app.printCountriesReport(countries);
-///////////////////////////////////////////////////////////
 
-
-////////////////////////////////////////////////////////////hah
         // 5.The top N populated countries in a continent where N is provided by the user.
         countries = app.countrytopncontinent();
         // Print The top N populated countries in a continent where N is provided by the user.
         app.printCountriesReport(countries);
+
+
 
         // 6. The top N populated countries in a region where N is provided by the user.
         countries = app.countrytopnregion();
         // Print Top populated Country in the region
         app.printCountriesReport(countries);
 
+
+
+
+        ///////////////////////////////////////////////////////////
         // 7. All the cities in the world organised by largest population to smallest.
         ArrayList<City> cities = app.cityworld();
         // print city data
         app.printCitiesReport(cities);
 
 
-///////////////////////////////////////////////////////////
 
-////////////////////////////////////////////////////////////ttkk
+
 
         // 8.All the cities in a continent organised by largest population to smallest.
         cities = app.citycontinent();
         // print city data
         app.printCitiesReport(cities);
 
+
         // 9. All the cities in a region organised by largest population to smallest.
         cities = app.cityregion();
         // print city data
         app.printCitiesReport(cities);
+
 
         // 10. All the cities in a country organised by largest population to smallest.
         cities = app.citycountry();
@@ -246,7 +256,7 @@ public class App
     /**
      * Connect to the MySQL database.
      */
-    public void connect(String location)
+    public void connect(String location, int delay)
     {
         try
         {
@@ -265,19 +275,19 @@ public class App
             System.out.println("Connecting to database ...");
             try
             {
-
+                Thread.sleep(delay);
                 con = DriverManager.getConnection("jdbc:mysql://" + location + "/world?" +
                         "allowPublicKeyRetrieval=true&useSSL=false", "root", "thuta");
                 System.out.println("Successfully connected");
                 break;
-            }
-            catch (SQLException sqle)
-            {
+            } catch (SQLException sqle) {
                 System.out.println("Failed to connect to database attempt " + i);
                 System.out.println(sqle.getMessage());
+            } catch (InterruptedException ie) {
+                System.out.println("Thread interrupted? Should not happen.");
             }
-
         }
+
     }
 
     /**
@@ -1739,6 +1749,8 @@ public class App
             System.out.println(population_string);
         }
     }
+
+    ///Output for Language
     public void printLanguageReport(ArrayList<Language> language)
     {
         // Check data is not null
@@ -1773,5 +1785,7 @@ public class App
         }
     }
 
+
 }
-/// Output and Print Language
+
+

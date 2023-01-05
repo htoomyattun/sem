@@ -3,29 +3,39 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Team Member, I will generate a report of all the capital cities in the region organized from largest population to the smallest.
+All the capital cities in the region organised by largest population to smallest.
 
 # Scope
-Population of all capital cities in the region from largest to smallest
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of all the capital cities in the region
+Connection to the world database
 
 # Success End Condition
-Easier and less time is required to review the population of the cities in the region.
+Report of the population of all the capital cities in the region
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Team Member
+Report Admin
 
 # Trigger
-The organization requires reporting on population information.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get all the capital cities in a region from database.
+2. Print population of all capital cities in a region from the largest to smallest.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

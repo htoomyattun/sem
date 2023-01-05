@@ -18,7 +18,7 @@ jobs:
         with:
           java-version: '19'
           distribution: 'adopt'
-      - name: UnitTests
+      - name: Unit Tests
         run: mvn -Dtest=com.napier.sem/UnitTests.java  test
       - name: CodeCov
         uses: codecov/codecov-action@v2
@@ -45,7 +45,7 @@ jobs:
         run: |
           docker build -t database ./db 
           docker run --name world -dp 33060:3306 database
-          mvn -Dtest=com.napier.sem/*.java test
+          mvn -Dtest=com.napier.sem/IntegrationTest.java test
           docker stop world
           docker rm world
           docker image rm database
@@ -73,10 +73,13 @@ jobs:
           distribution: 'adopt'
       - name: Package and Run docker compose
         run: |
+          mvn package -DskipTests
+          docker-compose up --abort-on-container-exit
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
           automatic_release_tag: "latest"
           files: |
-            ./target/*.jar
+            ./target/seMethods.jar
+            

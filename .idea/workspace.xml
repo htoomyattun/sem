@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment=".....">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="read me">
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -323,14 +322,7 @@
       <workItem from="1671422420403" duration="2145000" />
       <workItem from="1671890207124" duration="2110000" />
       <workItem from="1672380420949" duration="6184000" />
-      <workItem from="1672929761832" duration="4477000" />
-    </task>
-    <task id="LOCAL-00067" summary="testing">
-      <created>1672006997382</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1672006997382</updated>
+      <workItem from="1672929761832" duration="4615000" />
     </task>
     <task id="LOCAL-00068" summary="testing">
       <created>1672008109987</created>
@@ -668,7 +660,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672935539143</updated>
     </task>
-    <option name="localTasksCounter" value="116" />
+    <task id="LOCAL-00116" summary="read me">
+      <created>1672936461289</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1672936461289</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +688,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="...........et" />
     <MESSAGE value="Hope it Works" />
     <MESSAGE value="......." />
     <MESSAGE value="testing" />
@@ -714,7 +712,8 @@
     <MESSAGE value="attempt" />
     <MESSAGE value="COC and use case changes" />
     <MESSAGE value="....." />
-    <option name="LAST_COMMIT_MESSAGE" value="....." />
+    <MESSAGE value="read me" />
+    <option name="LAST_COMMIT_MESSAGE" value="read me" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

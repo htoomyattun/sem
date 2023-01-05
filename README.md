@@ -17,7 +17,7 @@
 
 
 
-# Team Members: Htun Aung Hlaing, Htoo Myat Tun, Thuta KoKo
+
 
 ![workflow](https://github.com/htoomyattun/sem/actions/workflows/main.yml/badge.svg)
 

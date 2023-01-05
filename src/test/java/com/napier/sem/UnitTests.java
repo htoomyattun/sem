@@ -125,7 +125,7 @@ public class UnitTests {
 @Test
 void CCityReportTest()
 {
-    System.out.println("Test Method of Capital City Report~~");
+    System.out.println("3. Test Method of Capital City Report~~");
     ArrayList<Capital> cap_cities = new ArrayList<>();
     Capital ca = new Capital();
     ca.setName("Tokyo");
@@ -181,7 +181,7 @@ void CCityReportTest()
     @Test
     void PopulationReportTest()
     {
-        System.out.println("Test Method for Population Report~~");
+        System.out.println("4. Test Method for Population Report~~");
         ArrayList<Population> populations = new ArrayList<>();
         Population pop = new Population();
         pop.setName("Czech Republic ");
@@ -236,7 +236,7 @@ void CCityReportTest()
 @Test
 void LanguageReportTest()
 {
-    System.out.println("Test Method of Language Report~~");
+    System.out.println("5. Test Method of Language Report~~");
     ArrayList<Language> languages = new ArrayList<>();
     Language la = new Language();
     la.setName("China");

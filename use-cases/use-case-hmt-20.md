@@ -3,27 +3,40 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Team Member, I will have to generate a report of The top N populated capital cities in the world where N is provided by the user.
+The top N populated capital cities in the world where N is provided by the user.
 
 # Scope
-Top populated capital cities in the world according to user
+Organization
+
 # Level
 Primary Task
 
 # Preconditions
-Report of the top populated capital cities in the world according to the user 
+Connection to the world database
 
 # Success End Condition
-Easier access to the top populated capital cities in the world provided by the user.
+Report of the top populated capital cities in the world according to the user
 
 # Failed End Condition
-The Organization will not have access to the information of the top N populated capital cities in the world provided by the user.
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Team Member
+Report Admin
+
 # Trigger
-The organization requires an easy access to population information. 
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Input N value where N is provided by the user
+2. Get the top N populated capital cities in the world from database.
+3. Print the population of top N populated capital cities in the world from the largest to smallest.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

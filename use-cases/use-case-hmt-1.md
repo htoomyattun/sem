@@ -3,7 +3,7 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As an Scrum Master I want to produce a report of all the countries in the world organised by largest population to smallest so that reviewing population of countries can be easier.
+All the countries in the world organised by largest population to smallest
 
 # Scope
 Organization 
@@ -12,22 +12,23 @@ Organization
 Primary Task
 
 # Preconditions
-Report of the population of all the countries in the world
+Connection to the world database
 
 # Success End Condition
-Easier and less time is required to review the population of the countries 
+Report of the population of all the countries in the world 
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Scrum Master
+Report Admin
 
 # Trigger
-The organization requires reporting on population information.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get all countries in the world from database.
+2. Print population of all countries in the world from largest to smallest.
 
 # EXTENSIONS
 None

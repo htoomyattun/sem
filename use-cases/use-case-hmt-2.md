@@ -3,29 +3,38 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Scrum Master I would like to make a report about All the countries in a continent organised by largest population to smallest so that reviewing population of continents will be more easier.
+All the countries in a continent organised by largest population to smallest.
 
 # Scope
-Population of all the countries in the continent
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of all the countries in the continent
+Connection to the world database
 
 # Success End Condition
-Easier and less time is required to review the population of the countries in the continent
+Report of the population of all the countries in the continent
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Scrum Master
+Report Admin
 
 # Trigger
-The organization requires reporting on population information.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get all countries in a continent from database.
+2. Print population of all countries in a continent from largest to smallest.
 
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022

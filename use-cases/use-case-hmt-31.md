@@ -2,28 +2,38 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Product Owner, I will generate the report of the population of a city, so these information can be accessible to the organization
+The population of a city.
 
 # Scope
-Population of people in a city
+Organization
 
 # Level
 Primary Task
 
 # Preconditions
-Report of the population of people in a city
+Connection to the world database
 
 # Success End Condition
-Easy to manage the population of people in a city
+Report of the population of people in a city
 
 # Failed End Condition
-It will take a lot of time to manage
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Product Owner
+Report Admin
 
 # Trigger
-The organization asked to make the report.
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Get the population of a city from the database.
+2. Display the population of a city's information.
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022

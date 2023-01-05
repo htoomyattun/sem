@@ -3,27 +3,40 @@
 # CHARACTERISTIC INFORMATION
 
 # Goal in Context
-As a Team Member, I will have to generate a report of The top N populated cities in the country where N is provided by the user.
+The top N populated cities in the country where N is provided by the user.
 
 # Scope
-Top populated cities in the country according to user
+Organization
+
 # Level
 Primary Task
 
 # Preconditions
-Report of the top populated cities in the country according to the user 
+Connection to the world database
 
 # Success End Condition
-Easier access to the top populated cities in the country provided by the user.
+Report of the top populated cities in the country according to the user
 
 # Failed End Condition
-The Organization will not have access to the information of the top N populated cities in the country provided by the user.
+Error message reporting unsuccessful data retrieval
 
 # Primary Actor
-Team Member
+Report Admin
+
 # Trigger
-The organization requires an easy access to population information. 
+None
 
 # MAIN SUCCESS SCENARIO
-Setup github, uses dockerfiles, link database, and then make a report.
+1. Input value where N is provided by user
+2. Get top N populated cities in a country
+3. Print top N populated cities in a country
+
+# EXTENSIONS
+None
+
+# SUB-VARIATIONS
+None
+
+# SCHEDULE
+DUE DATE: December 30, 2022
 

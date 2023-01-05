@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="ss table" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Dev" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +30,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -286,11 +286,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UnitTests" />
+        <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
         <item itemvalue="Application.App" />
-        <item itemvalue="JUnit.UnitTests" />
-        <item itemvalue="JUnit.IntegrationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -315,13 +315,6 @@
       <workItem from="1672380420949" duration="6184000" />
       <workItem from="1672929761832" duration="6185000" />
       <workItem from="1672940673838" duration="1079000" />
-    </task>
-    <task id="LOCAL-00070" summary="111">
-      <created>1672008771112</created>
-      <option name="number" value="00070" />
-      <option name="presentableId" value="LOCAL-00070" />
-      <option name="project" value="LOCAL" />
-      <updated>1672008771112</updated>
     </task>
     <task id="LOCAL-00071" summary="111x">
       <created>1672009074210</created>
@@ -659,7 +652,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672941374845</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <task id="LOCAL-00119" summary="Dev">
+      <created>1672943494009</created>
+      <option name="number" value="00119" />
+      <option name="presentableId" value="LOCAL-00119" />
+      <option name="project" value="LOCAL" />
+      <updated>1672943494009</updated>
+    </task>
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +680,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="testing" />
     <MESSAGE value="blesss" />
     <MESSAGE value="111" />
     <MESSAGE value="111x" />
@@ -705,7 +704,8 @@
     <MESSAGE value="read me" />
     <MESSAGE value="read me edit" />
     <MESSAGE value="ss table" />
-    <option name="LAST_COMMIT_MESSAGE" value="ss table" />
+    <MESSAGE value="Dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

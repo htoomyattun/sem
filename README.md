@@ -4,7 +4,7 @@
 
 | Role          | Member Name      | Matric No |
 |---------------|------------------|-----------|
-| Scrum Master  | Htoo Myat Htun   | 40516588  |
+| Scrum Master  | Htoo Myat Tun   | 40516588  |
 | Product Owner | Thuta Ko Ko      | 40524286  |
 | Team Member   | Htun Aung Hlaing | 40516567  |
 

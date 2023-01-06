@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="done">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="build done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -98,7 +97,7 @@
       <recent name="C:\Users\ASUS\IdeaProjects\Coursework\seMethods\sem1" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+  <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.napier.sem.App" />
       <module name="seMethods" />
@@ -290,11 +289,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="JUnit.UnitTests" />
         <item itemvalue="JUnit.IntegrationTest" />
         <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
         <item itemvalue="Docker.db/Dockerfile" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -319,20 +318,6 @@
       <workItem from="1672380420949" duration="6184000" />
       <workItem from="1672929761832" duration="6185000" />
       <workItem from="1672940673838" duration="1079000" />
-    </task>
-    <task id="LOCAL-00072" summary="code coverage">
-      <created>1672030191138</created>
-      <option name="number" value="00072" />
-      <option name="presentableId" value="LOCAL-00072" />
-      <option name="project" value="LOCAL" />
-      <updated>1672030191139</updated>
-    </task>
-    <task id="LOCAL-00073" summary="unittest intetest">
-      <created>1672031546191</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1672031546191</updated>
     </task>
     <task id="LOCAL-00074" summary="workflow">
       <created>1672031675466</created>
@@ -663,7 +648,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672943551504</updated>
     </task>
-    <option name="localTasksCounter" value="121" />
+    <task id="LOCAL-00121" summary="build done">
+      <created>1672987332474</created>
+      <option name="number" value="00121" />
+      <option name="presentableId" value="LOCAL-00121" />
+      <option name="project" value="LOCAL" />
+      <updated>1672987332475</updated>
+    </task>
+    <task id="LOCAL-00122" summary="build done">
+      <created>1672987452447</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1672987452447</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -684,7 +683,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="111" />
     <MESSAGE value="111x" />
     <MESSAGE value="code coverage" />
     <MESSAGE value="unittest intetest" />
@@ -709,7 +707,8 @@
     <MESSAGE value="ss table" />
     <MESSAGE value="Dev" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="build done" />
+    <option name="LAST_COMMIT_MESSAGE" value="build done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -12,7 +12,7 @@
 ## Contribution Spreadsheet of the team
 | Name             | Code Review 1 | Code Review 2 | Code Review 3 | Code Review 4 | Final Deliverable |
 |------------------|---------------|---------------|---------------|---------------|-------------------|
-| Htoo Myat Htun   | 33.34         | 33.33         | 33.33         | 33.33         | 33.33             |    
+| Htoo Myat Tun   | 33.34         | 33.33         | 33.33         | 33.33         | 33.33             |    
 | Thuta Ko Ko      | 33.33         | 33.33         | 33.34         | 33.33         | 33.33             |    
 | Htun Aung Hlaing | 33.33         | 33.34         | 33.33         | 33.34         | 33.34             |     
 

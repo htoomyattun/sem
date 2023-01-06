@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="Dev" />
+    <list default="true" id="d33e9b68-162c-4bca-b042-b3073ce8772f" name="Changes" comment="done">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -315,13 +319,6 @@
       <workItem from="1672380420949" duration="6184000" />
       <workItem from="1672929761832" duration="6185000" />
       <workItem from="1672940673838" duration="1079000" />
-    </task>
-    <task id="LOCAL-00071" summary="111x">
-      <created>1672009074210</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1672009074210</updated>
     </task>
     <task id="LOCAL-00072" summary="code coverage">
       <created>1672030191138</created>
@@ -659,7 +656,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672943494009</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="done">
+      <created>1672943551504</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1672943551504</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -680,7 +684,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="blesss" />
     <MESSAGE value="111" />
     <MESSAGE value="111x" />
     <MESSAGE value="code coverage" />
@@ -705,7 +708,8 @@
     <MESSAGE value="read me edit" />
     <MESSAGE value="ss table" />
     <MESSAGE value="Dev" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dev" />
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

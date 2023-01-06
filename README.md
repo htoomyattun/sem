@@ -29,19 +29,6 @@
 | Codecoverage     | [![codecov](https://codecov.io/gh/htoomyattun/sem/branch/master/graph/badge.svg?token=bL9BmoDVsb)](https://codecov.io/gh/htoomyattun/sem)|
 
 
-
-- Workflow      :![workflow](https://github.com/htoomyattun/sem/actions/workflows/main.yml/badge.svg)
-
-- License       :[![LICENSE](https://img.shields.io/github/license/htoomyattun/sem.svg?style=flat-square)](https://github.com/htoomyattun/sem/blob/master/LICENSE)
-
-- Release       : [![Releases](https://img.shields.io/github/release/htoomyattun/sem/all.svg?style=flat-square)](https://github.com/htoomyattun/sem/releases)
-
-- Master Build  :![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/htoomyattun/sem/main.yml?branch=master)
-
-- Develop Build :![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/htoomyattun/sem/main.yml?branch=develop)
-
-- Codecoverage  :[![codecov](https://codecov.io/gh/htoomyattun/sem/branch/master/graph/badge.svg?token=bL9BmoDVsb)](https://codecov.io/gh/htoomyattun/sem)
-
 ## Link the Project from Zube
 https://zube.io/group5-3/gp5/w/workspace-1/kanban
 

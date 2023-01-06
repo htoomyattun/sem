@@ -1,9 +1,6 @@
 name:  Population app
-on:
-  push:
-    branches:
-      - master
-      - develop
+on: push
+
 
 jobs:
   UnitTests:

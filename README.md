@@ -28,7 +28,7 @@
 
 - Master Build  :![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/htoomyattun/sem/main.yml?branch=master)
 
-- Develop Build :![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/htoomyattun/sem/main.yml?branch=master)
+- Develop Build :![GitHub Workflow Status (with branch)](https://img.shields.io/github/actions/workflow/status/htoomyattun/sem/main.yml?branch=develop)
 
 - Codecoverage  :[![codecov](https://codecov.io/gh/htoomyattun/sem/branch/master/graph/badge.svg?token=bL9BmoDVsb)](https://codecov.io/gh/htoomyattun/sem)
 

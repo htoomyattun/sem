@@ -1,6 +1,6 @@
 
-# SET09623 2022-3 TR2 001 - DEVOPS (Group 5)
-# Team roles
+# SET09623 - DEVOPS (Group 5)
+## Team roles
 
 | Role          | Member Name      | Matric No |
 |---------------|------------------|-----------|
@@ -17,9 +17,7 @@
 | Htun Aung Hlaing | 33.33         | 33.34         | 33.33         | 33.34         | 33.34             |     
 
 
-
-
-
+## Badge
 - Workflow      :![workflow](https://github.com/htoomyattun/sem/actions/workflows/main.yml/badge.svg)
 
 - License       :[![LICENSE](https://img.shields.io/github/license/htoomyattun/sem.svg?style=flat-square)](https://github.com/htoomyattun/sem/blob/master/LICENSE)
@@ -35,7 +33,8 @@
 ## Link the Project from Zube
 https://zube.io/group5-3/gp5/w/workspace-1/kanban
 
-# 32 requirements of 32 have been implemented, which is 100%.
+# Requirements for the coursework
+## 32 requirements of 32 have been implemented, which is 100%.
 | ID  | Name                                                                                                  | Met | Screenshot                |
 |-----|-------------------------------------------------------------------------------------------------------|-----|---------------------------|
 | 1   | All the countries in the world organised by largest population to smallest.                           | Yes | ![](screenshot/ss-1.PNG)  |
